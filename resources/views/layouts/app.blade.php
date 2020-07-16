@@ -15,6 +15,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -47,5 +48,23 @@
             &copy; 2020 - Todos los derechos reservados
         </div>
     </footer>
+    <script>
+        var final = moment("2020-08-15");
+        setInterval(function() {
+            var inicio = moment();
+            var duracion = final.diff(inicio);
+            var intervalo = moment(duracion);
+            var mes = intervalo.month()+1;
+            var diaDelMes = intervalo.date();
+            var hora = intervalo.hour();
+            var minuto = intervalo.minute();
+            var segundo = intervalo.second();
+            var resultado = (intervalo.format("MM/DD HH:mm:ss"));
+            $("#dias").html(diaDelMes);
+            $("#horas").html(hora);
+            $("#minutos").html(minuto);
+            $("#segundos").html(segundo);
+        }, 1000);
+    </script>
 </body>
 </html>

@@ -11,7 +11,7 @@
 <div class="contenedor-box">
     <div class="box">
         <div class="box-number">
-            <h2>00</h2>
+            <h2 id="dias"></h2>
         </div>
         <div class="box-time">
             Dias
@@ -19,7 +19,7 @@
     </div>
     <div class="box">
         <div class="box-number">
-            <h2>00</h2>
+            <h2 id="horas"></h2>
         </div>
         <div class="box-time">
             Horas
@@ -27,7 +27,7 @@
     </div>
     <div class="box">
         <div class="box-number">
-            <h2>00</h2>
+            <h2 id="minutos"></h2>
         </div>
         <div class="box-time">
             Minutos
@@ -35,7 +35,7 @@
     </div>
     <div class="box">
         <div class="box-number">
-            <h2>00</h2>
+            <h2 id="segundos"></h2>
         </div>
         <div class="box-time">
             Segundos
