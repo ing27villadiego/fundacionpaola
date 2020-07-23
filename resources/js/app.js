@@ -19,7 +19,7 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('homeComponent', require('./components/homeComponent.vue').default);
+Vue.component('app', require('./components/App.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -27,6 +27,26 @@ Vue.component('homeComponent', require('./components/homeComponent.vue').default
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
+//import es from 'vee-validate/dist/locale/es';
+//import VeeValidate, { Validator } from 'vee-validate';
+
+
+// Install the Plugin.
+//Vue.use(VeeValidate);
+
+// Localize takes the locale object as the second argument (optional) and merges it.
+//Validator.localize('es', es);
+
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+import App from './components/App'
+
+import router from './routes'
+
+ new Vue({
     el: '#app',
+    components: { App },
+    router,
 });
