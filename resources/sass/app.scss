@@ -1,147 +1,117 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
+@import "~bootstrap/scss/bootstrap";
 
 html {
     box-sizing: border-box;
-  }
-  body {
-    font-family: "Roboto", sans-serif;
-    box-sizing: inherit;
-    background-color: lightblue;
-  }
-  * {
-    padding: 0;
-    margin: 0;
-    line-height: 2;
-  }
-
-/*VARIABLES*/
-:root {
-    --color-base: #0761cf;
-    --bg-primary: #eff1f3;
-    --bg-secundary: #2c2f33;
-    --shadow-element: 0 5px 10px rgba(14, 30, 37, 0.16);
-    --font-parrafo: #6e767e;
 }
-
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
 
 /*GLOBALES*/
 
 h1 {
-    font-size: 30px;
-    text-shadow: 1px 2px 3px rgba(59, 57, 80, 0.2);
+  font-size: 48px;
+  text-shadow: 1px 2px 3px rgba(59, 57, 80, 0.2);
+}
+
+h2 {
+  font-size: 32px;
+  text-shadow: 1px 2px 3px rgba(59, 57, 80, 0.2);
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  transition: all 0.4s;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 34px;
   }
+
   h2 {
-    font-size: 26px;
-    text-shadow: 1px 2px 3px rgba(59, 57, 80, 0.2);
+    font-size: 28px;
   }
+
   h3 {
     font-size: 22px;
   }
-  h4 {
-    font-size: 18px;
-  }
+  
   p {
-    color: var(--font-parrafo);
+    font-size: 16px;
   }
+}
 
-  .contenedor-img {
-    width: 35%;
-    margin: auto;
-  }
-  .contenedor-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  h1 {
+/*UTILIDADES*/
+.seccion{
+  margin-bottom: 100px;
+}
+.imagen-responsive {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.button{
+  width: max-content;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;  
+  background-color: var(--color-fundacion-principal-dark);
+  transition: all .4s;
+  padding-right: 5px;
+  i{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    font-size: 30px;
     text-align: center;
-    text-transform: capitalize;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: var(--color-fundacion-principal-dark);
   }
-  .contenedor-box{
-      width: 40%;
-      margin: 20px auto;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
+  &:hover{
+    
+    box-shadow: var(--box-shadow-cards);
+    color: #ffffff;
   }
-  .contenedor-box .box{
-      width: 100px;
-      height: 100px;
-      overflow: hidden;
-      box-shadow: var(--shadow-element);
-      background-color: #F9A826;
-  }
-  .contenedor-box .box .box-number,
-  .contenedor-box .box .box-time{
-      text-align: center;
-      color: #fff;
-  }
-  footer{
-      width: 40%;
-      margin: 15px auto;
-      display: flex;
-      justify-content: center;
-  }
-  footer .redes-sociales{
-      width: 20%;
-      margin-right: 20px;
-      display: flex;
-      justify-content: space-between;
-  }
-  footer .redes-sociales .red-social a{
-      text-decoration: none;
-      color: #000;
-  }
-
-  footer .redes-sociales .red-social i{
-      font-size: 24px;
-      transition: all .4s;
-  }
-  footer .redes-sociales .red-social a:hover i{
-      transform: scale(1.2);
-      color: #fff;
-  }
-
-  @media (max-width: 768px) {
-      h1 {
-        font-size: 24px;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
-      h2 {
-        font-size: 20px;
-      }
-      h3 {
-        font-size: 18px;
-      }
-      p {
-        font-size: 14px;
-      }
-      .contenedor-img{
-          width: 100%;
-      }
-      .contenedor-box{
-          width: 80%;
-          justify-content: space-evenly;
-      }
-      .contenedor-box .box{
-          margin-bottom: 20px;
-      }
-      footer{
-          display: block;
-          width: 80%;
-      }
-      footer .redes-sociales, footer .copy{
-          width: 100%;
-      }
-    }
+}
