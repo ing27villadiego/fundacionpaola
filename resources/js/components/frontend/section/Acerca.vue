@@ -5,7 +5,7 @@
   <section id="acerca" class="seccion">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 img-historia">
           
           <svg
             class="back-bg"
@@ -15,13 +15,13 @@
           >
             <defs>
               <linearGradient id="PSgrad_01" x1="64.279%" x2="0%" y1="76.604%" y2="0%">
-                <stop offset="0%" stop-color="#63b8a7" stop-opacity="1" />
-                <stop offset="100%" stop-color="#63b8a7" stop-opacity="1" />
+                <stop offset="0%" stop-color="rgba(99, 184, 167)" stop-opacity="1" />
+                <stop offset="100%" stop-color="rgba(99, 184, 167)" stop-opacity="1" />
               </linearGradient>
             </defs>
             <path
               fill-rule="evenodd"
-              opacity="0.102"
+              opacity="0.5"
               fill="url(#PSgrad_01)"
               d="M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
             />
@@ -74,6 +74,9 @@
 
 <style lang="scss" scoped>
   @media (max-width: 768px) {
+    .img-historia{
+      margin-bottom: 50px;
+    }
     .acerca-de{
       a{
         margin: auto;

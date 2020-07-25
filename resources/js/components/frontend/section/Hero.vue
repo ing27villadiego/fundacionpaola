@@ -32,11 +32,15 @@
 <style lang="scss" scoped>
 .jumbotron.bg-hero {
   min-height: 100vh;
-  background-color: var(--color-fundacion-principal);
+  background: #63b8a7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,rgba(99, 184, 167, 0.9), rgba(38, 76, 93, 0.8));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(168, 37%, 55%, 0.9), rgba(38, 76, 93, 0.8)), url("../../../../../public/imagenes/bg-hero.jpg") no-repeat fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   h1 {
-    color: var(--color-fundacion-principal-dark);
+    color:  #ffffff;
     margin-bottom: 0;
   }
   h3 {

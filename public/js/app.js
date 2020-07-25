@@ -6595,7 +6595,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "@media (max-width: 768px) {\n.acerca-de a[data-v-0183aa99] {\n    margin: auto;\n}\n}", ""]);
+exports.push([module.i, "@media (max-width: 768px) {\n.img-historia[data-v-0183aa99] {\n    margin-bottom: 50px;\n}\n.acerca-de a[data-v-0183aa99] {\n    margin: auto;\n}\n}", ""]);
 
 // exports
 
@@ -6615,7 +6615,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".jumbotron.bg-hero[data-v-0b7eb426] {\n  min-height: 100vh;\n  background-color: var(--color-fundacion-principal);\n  position: relative;\n  overflow: hidden;\n}\n.jumbotron.bg-hero h1[data-v-0b7eb426] {\n  color: var(--color-fundacion-principal-dark);\n  margin-bottom: 0;\n}\n.jumbotron.bg-hero h3[data-v-0b7eb426] {\n  color: #ffffff;\n  margin: 35px 0;\n}\n.jumbotron.bg-hero .wave[data-v-0b7eb426] {\n  width: 100%;\n  height: 200px;\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/wave.svg */ "./public/imagenes/wave.svg")) + ") no-repeat;\n  background-size: cover;\n  position: absolute;\n  bottom: 0;\n}\n@media (max-width: 768px) {\n.jumbotron.bg-hero .contenido-hero[data-v-0b7eb426] {\n    text-align: center;\n}\n.jumbotron.bg-hero .contenido-hero a[data-v-0b7eb426] {\n    margin: auto;\n}\n.jumbotron.bg-hero .wave[data-v-0b7eb426] {\n    background-position: center bottom;\n    background-size: contain;\n}\n}", ""]);
+exports.push([module.i, ".jumbotron.bg-hero[data-v-0b7eb426] {\n  min-height: 100vh;\n  background: #63b8a7;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, rgba(98, 183, 166, 0.9), rgba(38, 76, 93, 0.8)), url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/bg-hero.jpg */ "./public/imagenes/bg-hero.jpg")) + ") no-repeat fixed;\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n  background-position: center;\n  background-size: cover;\n  position: relative;\n  overflow: hidden;\n}\n.jumbotron.bg-hero h1[data-v-0b7eb426] {\n  color: #ffffff;\n  margin-bottom: 0;\n}\n.jumbotron.bg-hero h3[data-v-0b7eb426] {\n  color: #ffffff;\n  margin: 35px 0;\n}\n.jumbotron.bg-hero .wave[data-v-0b7eb426] {\n  width: 100%;\n  height: 200px;\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/wave.svg */ "./public/imagenes/wave.svg")) + ") no-repeat;\n  background-size: cover;\n  position: absolute;\n  bottom: 0;\n}\n@media (max-width: 768px) {\n.jumbotron.bg-hero .contenido-hero[data-v-0b7eb426] {\n    text-align: center;\n}\n.jumbotron.bg-hero .contenido-hero a[data-v-0b7eb426] {\n    margin: auto;\n}\n.jumbotron.bg-hero .wave[data-v-0b7eb426] {\n    background-position: center bottom;\n    background-size: contain;\n}\n}", ""]);
 
 // exports
 
@@ -6635,7 +6635,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "ul.items {\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: wrap;\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/items.svg */ "./public/imagenes/items.svg")) + ") no-repeat;\n  background-size: cover;\n  background-position: center center;\n}\nul.items li {\n  padding: 20px 10px;\n}\nul.items li span {\n  font-size: 20px;\n}\n.servicio {\n  text-align: center;\n  background: #fff;\n  margin: 30px 5px;\n  padding: 15px;\n  border-radius: 10px;\n  box-shadow: var(--box-shadow-cards);\n}", ""]);
+exports.push([module.i, "ul.list-unstyled .media {\n  align-items: baseline;\n}\nul.list-unstyled .media i {\n  font-size: 26px;\n  margin-right: 10px;\n  color: var(--color-fundacion-principal);\n}\n.bg-servicios {\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/bg-servicios.svg */ "./public/imagenes/bg-servicios.svg")) + ") no-repeat;\n  background-size: 80%;\n  background-position: center right;\n}\n.margen-arriba {\n  margin-top: -50px;\n}\n.servicio {\n  text-align: center;\n  background: #fff;\n  padding: 15px;\n  margin-bottom: 20px;\n  border-radius: 10px;\n  box-shadow: var(--box-shadow-cards);\n}\n.servicio .img-servicio {\n  margin-bottom: 20px;\n}\n.servicio .img-servicio img {\n  width: 60%;\n  margin: auto;\n  -o-object-fit: contain;\n     object-fit: contain;\n}\n@media (max-width: 768px) {\n.como-funcionamos {\n    margin-bottom: 50px;\n}\n.bg-servicios {\n    padding-top: 20px;\n    background: rgba(99, 184, 167, 0.5);\n}\nul.list-unstyled .media i {\n    color: var(--color-fundacion-principal-dark);\n}\n.margen-arriba {\n    margin-top: 0;\n}\n}", ""]);
 
 // exports
 
@@ -38762,7 +38762,7 @@ var render = function() {
   return _c("section", { staticClass: "seccion", attrs: { id: "acerca" } }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-lg-6" }, [
+        _c("div", { staticClass: "col-lg-6 img-historia" }, [
           _c(
             "svg",
             {
@@ -38789,7 +38789,7 @@ var render = function() {
                       _c("stop", {
                         attrs: {
                           offset: "0%",
-                          "stop-color": "#63b8a7",
+                          "stop-color": "rgba(99, 184, 167)",
                           "stop-opacity": "1"
                         }
                       }),
@@ -38797,7 +38797,7 @@ var render = function() {
                       _c("stop", {
                         attrs: {
                           offset: "100%",
-                          "stop-color": "#63b8a7",
+                          "stop-color": "rgba(99, 184, 167)",
                           "stop-opacity": "1"
                         }
                       })
@@ -38811,7 +38811,7 @@ var render = function() {
               _c("path", {
                 attrs: {
                   "fill-rule": "evenodd",
-                  opacity: "0.102",
+                  opacity: "0.5",
                   fill: "url(#PSgrad_01)",
                   d:
                     "M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
@@ -38976,192 +38976,208 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("section", { staticClass: "seccion" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _vm._m(0),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-8" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "back-bg",
-                staticStyle: { position: "absolute", "z-index": "-1" },
-                attrs: { width: "100%", viewBox: "0 0 900 700" }
-              },
-              [
-                _c(
-                  "defs",
-                  [
-                    _c(
-                      "linearGradient",
-                      {
-                        attrs: {
-                          id: "PSgrad_01",
-                          x1: "64.279%",
-                          x2: "0%",
-                          y1: "76.604%",
-                          y2: "0%"
-                        }
-                      },
-                      [
-                        _c("stop", {
-                          attrs: {
-                            offset: "0%",
-                            "stop-color": "#63b8a7",
-                            "stop-opacity": "1"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("stop", {
-                          attrs: {
-                            offset: "100%",
-                            "stop-color": "#63b8a7",
-                            "stop-opacity": "1"
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("path", {
-                  attrs: {
-                    "fill-rule": "evenodd",
-                    opacity: "0.102",
-                    fill: "url(#PSgrad_01)",
-                    d:
-                      "M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(1)
-          ])
-        ])
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-4" }, [
-      _c("h2", { staticClass: "text-center" }, [_vm._v("Como Funcionamos")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n            La Fundación Paola Andrea Velásquez Vivas realiza su trabajo en un esfuerzo familiar de la\n            familia Velásquez Vivas acompañado por un staff de personas que en calidad de voluntarios\n            brindan todo su saber profesional en diferente áreas: \n          "
-        )
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "items" }, [
-        _c("li", [_c("span", [_vm._v("Medicina")])]),
-        _vm._v(" "),
-        _c("li", [_c("span", [_vm._v("Psicología")])]),
-        _vm._v(" "),
-        _c("li", [_c("span", [_vm._v("Pedagogía")])]),
-        _vm._v(" "),
-        _c("li", [_c("span", [_vm._v("Nutrición")])]),
-        _vm._v(" "),
-        _c("li", [_c("span", [_vm._v("Apoyo Jurídico")])]),
-        _vm._v(" "),
-        _c("li", [_c("span", [_vm._v("recreación y manualidades")])])
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n              logrando así que los programas ofrecidos\n              tanto a los niños como a su familia llenen las expectativas propuestas desde su creación.\n          "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-lg-6" }, [
-        _c("div", { staticClass: "servicio" }, [
-          _c("div", { staticClass: "img-servicio" }, [
-            _c("img", {
-              staticClass: "imagen-responsive",
-              attrs: { src: "imagenes/paola-andrea-historia.jpg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("h3", [_vm._v("Apoyo Psicológico")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n                  El objetivo primario de este programa es conformar estructuras de apoyo, comprensión y\n                  pertenencia que faciliten el transito por la difícil etapa de la enfermedad.\n                "
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "servicio" }, [
-          _c("div", { staticClass: "img-servicio" }, [
-            _c("img", {
-              staticClass: "imagen-responsive",
-              attrs: { src: "imagenes/paola-andrea-historia.jpg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("h3", [_vm._v("Programa de Asistencia Social")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n                  El objetivo de este programa es cubrir las necesidades puntuales\n                  de los niños a lo largo del tratamiento, evitando demoras innecesarias y\n                  buscando que el tratamiento resulte lo más eficaz posible.\n                "
-            )
+    return _c("div", [
+      _c("section", { staticClass: "seccion bg-servicios" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-4 como-funcionamos" }, [
+              _c("h2", { staticClass: "text-center" }, [
+                _vm._v("Como Funcionamos")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "\n            La Fundación Paola Andrea Velásquez Vivas realiza su trabajo en un esfuerzo familiar de la\n            familia Velásquez Vivas acompañado por un staff de personas que en calidad de voluntarios\n            brindan todo su saber profesional en diferente áreas:\n          "
+                )
+              ]),
+              _vm._v(" "),
+              _c("ul", { staticClass: "list-unstyled" }, [
+                _c("li", { staticClass: "media my-4" }, [
+                  _c("i", {
+                    staticClass: "fa fa-medkit",
+                    attrs: { "aria-hidden": "true" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "media-body" }, [
+                    _c("h5", { staticClass: "mt-0 mb-1" }, [_vm._v("Medicina")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "media my-4" }, [
+                  _c("i", {
+                    staticClass: "fa fa-users",
+                    attrs: { "aria-hidden": "true" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "media-body" }, [
+                    _c("h5", { staticClass: "mt-0 mb-1" }, [
+                      _vm._v("Psicología")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "media my-4" }, [
+                  _c("i", {
+                    staticClass: "fa fa-graduation-cap",
+                    attrs: { "aria-hidden": "true" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "media-body" }, [
+                    _c("h5", { staticClass: "mt-0 mb-1" }, [
+                      _vm._v("Pedagogía")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "media my-4" }, [
+                  _c("i", {
+                    staticClass: "fa fa-cutlery",
+                    attrs: { "aria-hidden": "true" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "media-body" }, [
+                    _c("h5", { staticClass: "mt-0 mb-1" }, [
+                      _vm._v("Nutrición")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "media my-4" }, [
+                  _c("i", {
+                    staticClass: "fa fa-gavel",
+                    attrs: { "aria-hidden": "true" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "media-body" }, [
+                    _c("h5", { staticClass: "mt-0 mb-1" }, [
+                      _vm._v("Apoyo Jurídico")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "media my-4" }, [
+                  _c("i", {
+                    staticClass: "fa fa-futbol-o",
+                    attrs: { "aria-hidden": "true" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "media-body" }, [
+                    _c("h5", { staticClass: "mt-0 mb-1" }, [
+                      _vm._v("Recreación y Manualidades")
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "\n            logrando así que los programas ofrecidos\n            tanto a los niños como a su familia llenen las expectativas propuestas desde su creación.\n          "
+                )
+              ]),
+              _vm._v(" "),
+              _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                _vm._v("\n            nuestros servicios\n            "),
+                _c("i", {
+                  staticClass: "fa fa-angle-right",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-8" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-lg-6" }, [
+                  _c("div", { staticClass: "servicio" }, [
+                    _c("div", { staticClass: "img-servicio" }, [
+                      _c("img", {
+                        staticClass: "imagen-responsive",
+                        attrs: {
+                          src: "imagenes/apoyo-psicologico.svg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("Apoyo Psicológico")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  El objetivo primario de este programa es conformar estructuras de apoyo, comprensión y\n                  pertenencia que faciliten el transito por la difícil etapa de la enfermedad.\n                "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "servicio" }, [
+                    _c("div", { staticClass: "img-servicio" }, [
+                      _c("img", {
+                        staticClass: "imagen-responsive",
+                        attrs: {
+                          src: "imagenes/asistencia-social.svg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("Programa de Asistencia Social")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  El objetivo de este programa es cubrir las necesidades puntuales\n                  de los niños a lo largo del tratamiento, evitando demoras innecesarias y\n                  buscando que el tratamiento resulte lo más eficaz posible.\n                "
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-lg-6 margen-arriba" }, [
+                  _c("div", { staticClass: "servicio" }, [
+                    _c("div", { staticClass: "img-servicio" }, [
+                      _c("img", {
+                        staticClass: "imagen-responsive",
+                        attrs: { src: "imagenes/recreacion.svg", alt: "" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("Recreación Hospitalaria")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  Actividades desarrolladas para que los niños hospitalizados puedan tener espacios para distraerse y\n                  hacer posible que se olviden por un rato de todos los procedimientos que les realizan.\n                "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "servicio" }, [
+                    _c("div", { staticClass: "img-servicio" }, [
+                      _c("img", {
+                        staticClass: "imagen-responsive",
+                        attrs: {
+                          src: "imagenes/educacion-informativa.svg",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("Programa Informativo Educativo")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "\n                  La información y educación de la familia sobre temas relativos al cáncer\n                  puede ayudar a un mejor acompañamiento y contención del niño enfermo y disminuir\n                  considerablemente los riesgos del paciente a lo largo del tratamiento.\n                "
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-lg-6", staticStyle: { "margin-top": "-50px" } },
-        [
-          _c("div", { staticClass: "servicio" }, [
-            _c("div", { staticClass: "img-servicio" }, [
-              _c("img", {
-                staticClass: "imagen-responsive",
-                attrs: { src: "imagenes/paola-andrea-historia.jpg", alt: "" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("h3", [_vm._v("Recreación Hospitalaria")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                  Actividades desarrolladas para que los niños hospitalizados puedan tener espacios para distraerse y\n                  hacer posible que se olviden por un rato de todos los procedimientos que les realizan.\n                "
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "servicio" }, [
-            _c("div", { staticClass: "img-servicio" }, [
-              _c("img", {
-                staticClass: "imagen-responsive",
-                attrs: { src: "imagenes/paola-andrea-historia.jpg", alt: "" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("h3", [_vm._v("Programa Informativo Educativo")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                  La información y educación de la familia sobre temas relativos al cáncer\n                  puede ayudar a un mejor acompañamiento y contención del niño enfermo y disminuir\n                  considerablemente los riesgos del paciente a lo largo del tratamiento.\n                "
-              )
-            ])
-          ])
-        ]
-      )
+      ])
     ])
   }
 ]
@@ -54362,14 +54378,25 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./public/imagenes/items.svg":
-/*!***********************************!*\
-  !*** ./public/imagenes/items.svg ***!
-  \***********************************/
+/***/ "./public/imagenes/bg-hero.jpg":
+/*!*************************************!*\
+  !*** ./public/imagenes/bg-hero.jpg ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/items.svg?84008f9771fc03dc7c3bc62635dc8d86";
+module.exports = "/images/bg-hero.jpg?78af430275251add4afa488aaa00cd26";
+
+/***/ }),
+
+/***/ "./public/imagenes/bg-servicios.svg":
+/*!******************************************!*\
+  !*** ./public/imagenes/bg-servicios.svg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bg-servicios.svg?f583b1586eb63a0f581f06b02e8820ef";
 
 /***/ }),
 
