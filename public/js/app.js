@@ -38759,86 +38759,88 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "seccion", attrs: { id: "acerca" } }, [
+  return _c("section", { staticClass: "seccion" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-lg-6 img-historia" }, [
-          _c(
-            "svg",
-            {
-              staticClass: "back-bg",
-              staticStyle: { position: "absolute", "z-index": "-1" },
-              attrs: { width: "100%", viewBox: "0 0 900 700" }
-            },
-            [
-              _c(
-                "defs",
-                [
-                  _c(
-                    "linearGradient",
-                    {
-                      attrs: {
-                        id: "PSgrad_01",
-                        x1: "64.279%",
-                        x2: "0%",
-                        y1: "76.604%",
-                        y2: "0%"
-                      }
-                    },
-                    [
-                      _c("stop", {
+        _c("div", { staticClass: "col-lg-6" }, [
+          _c("div", { staticClass: "img-historia" }, [
+            _c(
+              "svg",
+              {
+                staticClass: "back-bg",
+                staticStyle: { position: "absolute", "z-index": "-1" },
+                attrs: { width: "100%", viewBox: "0 0 900 700" }
+              },
+              [
+                _c(
+                  "defs",
+                  [
+                    _c(
+                      "linearGradient",
+                      {
                         attrs: {
-                          offset: "0%",
-                          "stop-color": "rgba(99, 184, 167)",
-                          "stop-opacity": "1"
+                          id: "PSgrad_01",
+                          x1: "64.279%",
+                          x2: "0%",
+                          y1: "76.604%",
+                          y2: "0%"
                         }
-                      }),
-                      _vm._v(" "),
-                      _c("stop", {
-                        attrs: {
-                          offset: "100%",
-                          "stop-color": "rgba(99, 184, 167)",
-                          "stop-opacity": "1"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  "fill-rule": "evenodd",
-                  opacity: "0.5",
-                  fill: "url(#PSgrad_01)",
-                  d:
-                    "M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
-                }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _c("svg", { attrs: { width: "100%", viewBox: "0 0 700 500" } }, [
-            _c("clipPath", { attrs: { id: "clip-path" } }, [
-              _c("path", {
-                attrs: {
-                  d:
-                    "M89.479,0.180 L512.635,25.932 C568.395,29.326 603.115,76.927 590.357,129.078 L528.827,380.603 C518.688,422.048 472.661,448.814 427.190,443.300 L73.350,400.391 C32.374,395.422 -0.267,360.907 -0.002,322.064 L1.609,85.154 C1.938,36.786 40.481,-2.801 89.479,0.180 Z"
-                }
-              })
-            ]),
+                      },
+                      [
+                        _c("stop", {
+                          attrs: {
+                            offset: "0%",
+                            "stop-color": "rgba(99, 184, 167)",
+                            "stop-opacity": "1"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("stop", {
+                          attrs: {
+                            offset: "100%",
+                            "stop-color": "rgba(99, 184, 167)",
+                            "stop-opacity": "1"
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    "fill-rule": "evenodd",
+                    opacity: "0.5",
+                    fill: "url(#PSgrad_01)",
+                    d:
+                      "M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
+                  }
+                })
+              ]
+            ),
             _vm._v(" "),
-            _c("image", {
-              staticClass: "svg__image",
-              attrs: {
-                "clip-path": "url(#clip-path)",
-                "xlink:href": "imagenes/paola-andrea-historia.jpg",
-                width: "100%",
-                height: "100%"
-              }
-            })
+            _c("svg", { attrs: { width: "100%", viewBox: "0 0 700 500" } }, [
+              _c("clipPath", { attrs: { id: "clip-path" } }, [
+                _c("path", {
+                  attrs: {
+                    d:
+                      "M89.479,0.180 L512.635,25.932 C568.395,29.326 603.115,76.927 590.357,129.078 L528.827,380.603 C518.688,422.048 472.661,448.814 427.190,443.300 L73.350,400.391 C32.374,395.422 -0.267,360.907 -0.002,322.064 L1.609,85.154 C1.938,36.786 40.481,-2.801 89.479,0.180 Z"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("image", {
+                staticClass: "svg__image",
+                attrs: {
+                  "clip-path": "url(#clip-path)",
+                  "xlink:href": "imagenes/paola-andrea-historia.jpg",
+                  width: "100%",
+                  height: "100%"
+                }
+              })
+            ])
           ])
         ]),
         _vm._v(" "),
@@ -38902,56 +38904,45 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    {
-      staticClass: "jumbotron jumbotron-fluid bg-hero",
-      attrs: { id: "inicio" }
-    },
-    [
-      _c(
-        "div",
-        { staticClass: "container" },
-        [_c("Header"), _vm._v(" "), _vm._m(0)],
-        1
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "wave" })
-    ]
-  )
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row pt-5" }, [
-      _c("div", { staticClass: "col-lg-6 col-md-12" }, [
-        _c("div", { staticClass: "contenido-hero" }, [
-          _c("h1", [_vm._v("Fundación Paola Andrea Velasquez Viva")]),
-          _vm._v(" "),
-          _c("h3", [
-            _vm._v(
-              "\n            Diagnosticar a tiempo y hacer un tratamiento integral aumenta\n            la probabilidad de cura,\n            Juntos podemos ganarle la batalla al cancer.\n          "
-            )
+    return _c("div", { staticClass: "jumbotron jumbotron-fluid bg-hero" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row pt-5" }, [
+          _c("div", { staticClass: "col-lg-6 col-md-12" }, [
+            _c("div", { staticClass: "contenido-hero" }, [
+              _c("h1", [_vm._v("Fundación Paola Andrea Velasquez Viva")]),
+              _vm._v(" "),
+              _c("h3", [
+                _vm._v(
+                  "\n            Diagnosticar a tiempo y hacer un tratamiento integral aumenta\n            la probabilidad de cura,\n            Juntos podemos ganarle la batalla al cancer.\n          "
+                )
+              ]),
+              _vm._v(" "),
+              _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                _vm._v("\n            Contactanos\n            "),
+                _c("i", {
+                  staticClass: "fa fa-angle-right",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "button", attrs: { href: "#" } }, [
-            _vm._v("\n            Contactanos\n            "),
-            _c("i", {
-              staticClass: "fa fa-angle-right",
-              attrs: { "aria-hidden": "true" }
+          _c("div", { staticClass: "col-lg-6 col-md-12" }, [
+            _c("img", {
+              attrs: { src: "imagenes/img-hero.svg", alt: "img-hero.svg" }
             })
           ])
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-lg-6 col-md-12" }, [
-        _c("img", {
-          staticClass: "imagen-responsive",
-          attrs: { src: "imagenes/img-hero.svg", alt: "img-hero.svg" }
-        })
-      ])
+      _c("div", { staticClass: "wave" })
     ])
   }
 ]

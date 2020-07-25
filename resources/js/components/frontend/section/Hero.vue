@@ -2,9 +2,8 @@
   <!--==========================
         HERO
   ============================-->
-  <div id="inicio" class="jumbotron jumbotron-fluid bg-hero">
+  <div class="jumbotron jumbotron-fluid bg-hero">
     <div class="container">
-      <Header></Header>
       <div class="row pt-5">
         <div class="col-lg-6 col-md-12">
           <div class="contenido-hero">
@@ -21,7 +20,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
-            <img src="imagenes/img-hero.svg" alt="img-hero.svg" class="imagen-responsive"/>
+            <img src="imagenes/img-hero.svg" alt="img-hero.svg"/>
         </div>
       </div>
     </div>
