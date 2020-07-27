@@ -11,6 +11,8 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
+    require('jquery-aniview/dist/jquery.aniview');
+    require('imagehover.css/css/imagehover.css');
 } catch (e) {}
 
 /**

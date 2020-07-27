@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="seccion bg-servicios">
+    <section class="seccion bg-servicios aniview" data-av-animation="fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 como-funcionamos">

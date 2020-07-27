@@ -2,10 +2,11 @@
   <!--==========================
         HERO
   ============================-->
-  <div class="jumbotron jumbotron-fluid bg-hero">
+  <div class="jumbotron jumbotron-fluid">
+    <NavBarComponent></NavBarComponent>
     <div class="container">
       <div class="row pt-5">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <div class="contenido-hero">
             <h1>Fundación Paola Andrea Velasquez Viva</h1>
             <h3>
@@ -19,8 +20,8 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
-            <img src="imagenes/img-hero.svg" alt="img-hero.svg"/>
+        <div class="col-lg-6">
+          <img src="imagenes/img-hero.svg" alt="">
         </div>
       </div>
     </div>
@@ -28,14 +29,25 @@
   </div>
 </template>
 
+<script>
+import NavBarComponent from '../shared/NavBar'
+
+export default {
+  components:{
+    NavBarComponent
+  }
+}
+</script>
+
 <style lang="scss" scoped>
-.jumbotron.bg-hero {
-  min-height: 100vh;
+.jumbotron {
+  padding: 0;
   background: #63b8a7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,rgba(99, 184, 167, 0.9), rgba(38, 76, 93, 0.8));  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, hsla(168, 37%, 55%, 0.9), rgba(38, 76, 93, 0.8)), url("../../../../../public/imagenes/bg-hero.jpg") no-repeat fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   h1 {
@@ -63,8 +75,9 @@
       }
     }
     .wave {
-      background-position: center bottom;
-      background-size: contain;
+        background-position: center bottom;
+        background-size: contain;
+    
     }
   }
 }

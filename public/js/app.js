@@ -1965,6 +1965,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _section_Hero__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./section/Hero */ "./resources/js/components/frontend/section/Hero.vue");
 /* harmony import */ var _section_Acerca__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./section/Acerca */ "./resources/js/components/frontend/section/Acerca.vue");
 /* harmony import */ var _section_Servicios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./section/Servicios */ "./resources/js/components/frontend/section/Servicios.vue");
+/* harmony import */ var _section_Blog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./section/Blog */ "./resources/js/components/frontend/section/Blog.vue");
 //
 //
 //
@@ -1973,6 +1974,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+
 
 
 
@@ -1981,7 +1984,58 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     HeroComponent: _section_Hero__WEBPACK_IMPORTED_MODULE_0__["default"],
     AcercaComponent: _section_Acerca__WEBPACK_IMPORTED_MODULE_1__["default"],
-    ServiciosComponent: _section_Servicios__WEBPACK_IMPORTED_MODULE_2__["default"]
+    ServiciosComponent: _section_Servicios__WEBPACK_IMPORTED_MODULE_2__["default"],
+    BlogComponent: _section_Blog__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Hero.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Hero.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _shared_NavBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../shared/NavBar */ "./resources/js/components/frontend/shared/NavBar.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    NavBarComponent: _shared_NavBar__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -2112,6 +2166,66 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/shared/NavBar.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Header"
+});
 
 /***/ }),
 
@@ -6602,6 +6716,26 @@ exports.push([module.i, "@media (max-width: 768px) {\n.img-historia[data-v-0183a
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".bg-blog[data-v-08f3ffce] {\n  padding-top: 20px;\n  min-height: 80vh;\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/bg-blog.svg */ "./public/imagenes/bg-blog.svg")) + ") no-repeat fixed;\n  background-size: cover;\n  background-position: center center;\n}\nfigure[data-v-08f3ffce] {\n  margin-bottom: 20px;\n}\n[class^=imghvr-][data-v-08f3ffce],\n[class*=\" imghvr-\"][data-v-08f3ffce] {\n  background-color: var(--color-fundacion-principal-dark);\n}\n[class^=imghvr-] figcaption[data-v-08f3ffce],\n[class*=\" imghvr-\"] figcaption[data-v-08f3ffce] {\n  background-color: var(--color-fundacion-principal);\n}\n[class^=imghvr-] a[data-v-08f3ffce],\n[class*=\" imghvr-\"] a[data-v-08f3ffce] {\n  position: relative;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true& ***!
@@ -6615,7 +6749,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".jumbotron.bg-hero[data-v-0b7eb426] {\n  min-height: 100vh;\n  background: #63b8a7;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, rgba(98, 183, 166, 0.9), rgba(38, 76, 93, 0.8)), url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/bg-hero.jpg */ "./public/imagenes/bg-hero.jpg")) + ") no-repeat fixed;\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n  background-position: center;\n  background-size: cover;\n  position: relative;\n  overflow: hidden;\n}\n.jumbotron.bg-hero h1[data-v-0b7eb426] {\n  color: #ffffff;\n  margin-bottom: 0;\n}\n.jumbotron.bg-hero h3[data-v-0b7eb426] {\n  color: #ffffff;\n  margin: 35px 0;\n}\n.jumbotron.bg-hero .wave[data-v-0b7eb426] {\n  width: 100%;\n  height: 200px;\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/wave.svg */ "./public/imagenes/wave.svg")) + ") no-repeat;\n  background-size: cover;\n  position: absolute;\n  bottom: 0;\n}\n@media (max-width: 768px) {\n.jumbotron.bg-hero .contenido-hero[data-v-0b7eb426] {\n    text-align: center;\n}\n.jumbotron.bg-hero .contenido-hero a[data-v-0b7eb426] {\n    margin: auto;\n}\n.jumbotron.bg-hero .wave[data-v-0b7eb426] {\n    background-position: center bottom;\n    background-size: contain;\n}\n}", ""]);
+exports.push([module.i, ".jumbotron[data-v-0b7eb426] {\n  padding: 0;\n  background: #63b8a7;\n  /* fallback for old browsers */\n  /* Chrome 10-25, Safari 5.1-6 */\n  background: linear-gradient(to right, rgba(98, 183, 166, 0.9), rgba(38, 76, 93, 0.8)), url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/bg-hero.jpg */ "./public/imagenes/bg-hero.jpg")) + ") no-repeat fixed;\n  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */\n  background-position: center center;\n  background-size: cover;\n  height: 100vh;\n  position: relative;\n  overflow: hidden;\n}\n.jumbotron h1[data-v-0b7eb426] {\n  color: #ffffff;\n  margin-bottom: 0;\n}\n.jumbotron h3[data-v-0b7eb426] {\n  color: #ffffff;\n  margin: 35px 0;\n}\n.jumbotron .wave[data-v-0b7eb426] {\n  width: 100%;\n  height: 200px;\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/wave.svg */ "./public/imagenes/wave.svg")) + ") no-repeat;\n  background-size: cover;\n  position: absolute;\n  bottom: 0;\n}\n@media (max-width: 768px) {\n.jumbotron .contenido-hero[data-v-0b7eb426] {\n    text-align: center;\n}\n.jumbotron .contenido-hero a[data-v-0b7eb426] {\n    margin: auto;\n}\n.jumbotron .wave[data-v-0b7eb426] {\n    background-position: center bottom;\n    background-size: contain;\n}\n}", ""]);
 
 // exports
 
@@ -6636,6 +6770,44 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 // module
 exports.push([module.i, "ul.list-unstyled .media {\n  align-items: baseline;\n}\nul.list-unstyled .media i {\n  font-size: 26px;\n  margin-right: 10px;\n  color: var(--color-fundacion-principal);\n}\n.bg-servicios {\n  background: url(" + escape(__webpack_require__(/*! ../../../../../public/imagenes/bg-servicios.svg */ "./public/imagenes/bg-servicios.svg")) + ") no-repeat;\n  background-size: 80%;\n  background-position: center right;\n}\n.margen-arriba {\n  margin-top: -50px;\n}\n.servicio {\n  text-align: center;\n  background: #fff;\n  padding: 15px;\n  margin-bottom: 20px;\n  border-radius: 10px;\n  box-shadow: var(--box-shadow-cards);\n}\n.servicio .img-servicio {\n  margin-bottom: 20px;\n}\n.servicio .img-servicio img {\n  width: 60%;\n  margin: auto;\n  -o-object-fit: contain;\n     object-fit: contain;\n}\n@media (max-width: 768px) {\n.como-funcionamos {\n    margin-bottom: 50px;\n}\n.bg-servicios {\n    padding-top: 20px;\n    background: rgba(99, 184, 167, 0.5);\n}\nul.list-unstyled .media i {\n    color: var(--color-fundacion-principal-dark);\n}\n.margen-arriba {\n    margin-top: 0;\n}\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "nav.navbar {\n  background: transparent;\n}\nnav.navbar ul.navbar-nav li.nav-item {\n  position: relative;\n}\nnav.navbar ul.navbar-nav li.nav-item::after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 2px;\n  background: transparent;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  transition: all 0.4s;\n}\nnav.navbar ul.navbar-nav li.nav-item:hover a {\n  color: #fff;\n}\nnav.navbar ul.navbar-nav li.nav-item:hover::after {\n  width: 100%;\n  background: #fff;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/imagehover.css/css/imagehover.css":
+/*!****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/imagehover.css/css/imagehover.css ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "@charset \"UTF-8\";\n/*!\n * ImageHover.css - http://www.imagehover.io\n * Version 1.0\n * Author: Ciarán Walsh\n\n * Made available under a MIT License:\n * http://www.opensource.org/licenses/mit-license.php\n\n */\n[class^='imghvr-'], [class*=' imghvr-'] {\n    position: relative;\n    display: inline-block;\n    margin: 0;\n    max-width: 100%;\n    background-color: #2266a5;\n    color: #fff;\n    overflow: hidden;\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-osx-font-smoothing: grayscale;\n    -webkit-transform: translateZ(0);\n            transform: translateZ(0);\n}\n\n[class^='imghvr-'] > img, [class*=' imghvr-'] > img {\n    vertical-align: top;\n    max-width: 100%;\n}\n\n[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {\n    background-color: #135796;\n    padding: 30px;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    color: #ffffff;\n}\n\n[class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {\n    color: #ffffff;\n}\n\n[class^='imghvr-'] a, [class*=' imghvr-'] a {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    z-index: 1;\n}\n\n[class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before,\n[class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,\n[class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,\n[class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {\n    box-sizing: border-box;\n    transition: all .35s ease;\n}\n\n/* imghvr-fade-*\n   ----------------------------- */\n[class^='imghvr-fade'] figcaption, [class*=' imghvr-fade'] figcaption {\n    opacity: 0;\n}\n\n[class^='imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover > img {\n    opacity: 0;\n}\n\n[class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover figcaption {\n    opacity: 1;\n}\n\n[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption {\n    -webkit-transform: translate(0, 0);\n            transform: translate(0, 0);\n}\n\n/* imghvr-fade\n   ----------------------------- */\n/* imghvr-fade-in-up\n   ----------------------------- */\n.imghvr-fade-in-up figcaption {\n    -webkit-transform: translate(0, 15%);\n            transform: translate(0, 15%);\n}\n\n/* imghvr-fade-in-down\n   ----------------------------- */\n.imghvr-fade-in-down figcaption {\n    -webkit-transform: translate(0, -15%);\n            transform: translate(0, -15%);\n}\n\n/* imghvr-fade-in-left\n   ----------------------------- */\n.imghvr-fade-in-left figcaption {\n    -webkit-transform: translate(-15%, 0);\n            transform: translate(-15%, 0);\n}\n\n/* imghvr-fade-in-right\n   ----------------------------- */\n.imghvr-fade-in-right figcaption {\n    -webkit-transform: translate(15%, 0);\n            transform: translate(15%, 0);\n}\n\n/* imghvr-push-*\n   ----------------------------- */\n[class^='imghvr-push-']:hover figcaption, [class*=' imghvr-push-']:hover figcaption {\n    -webkit-transform: translate(0, 0);\n            transform: translate(0, 0);\n}\n\n/* imghvr-push-up\n   ----------------------------- */\n.imghvr-push-up figcaption {\n    -webkit-transform: translateY(100%);\n            transform: translateY(100%);\n}\n\n.imghvr-push-up:hover > img {\n    -webkit-transform: translateY(-100%);\n            transform: translateY(-100%);\n}\n\n/* imghvr-push-down\n   ----------------------------- */\n.imghvr-push-down figcaption {\n    -webkit-transform: translateY(-100%);\n            transform: translateY(-100%);\n}\n\n.imghvr-push-down:hover > img {\n    -webkit-transform: translateY(100%);\n            transform: translateY(100%);\n}\n\n/* imghvr-push-left\n   ----------------------------- */\n.imghvr-push-left figcaption {\n    -webkit-transform: translateX(100%);\n            transform: translateX(100%);\n}\n\n.imghvr-push-left:hover > img {\n    -webkit-transform: translateX(-100%);\n            transform: translateX(-100%);\n}\n\n/* imghvr-push--right\n   ----------------------------- */\n.imghvr-push-right figcaption {\n    -webkit-transform: translateX(-100%);\n            transform: translateX(-100%);\n}\n\n.imghvr-push-right:hover > img {\n    -webkit-transform: translateX(100%);\n            transform: translateX(100%);\n}\n\n/* imghvr-slide-*\n   ----------------------------- */\n[class^='imghvr-slide-']:hover figcaption, [class*=' imghvr-slide-']:hover figcaption {\n    -webkit-transform: translate(0, 0);\n            transform: translate(0, 0);\n}\n\n/* imghvr-slide-up\n   ----------------------------- */\n.imghvr-slide-up figcaption {\n    -webkit-transform: translateY(100%);\n            transform: translateY(100%);\n}\n\n/* imghvr-slide-down\n   ----------------------------- */\n.imghvr-slide-down figcaption {\n    -webkit-transform: translateY(-100%);\n            transform: translateY(-100%);\n}\n\n/* imghvr-slide-left\n   ----------------------------- */\n.imghvr-slide-left figcaption {\n    -webkit-transform: translateX(100%);\n            transform: translateX(100%);\n}\n\n/* imghvr-slide-right\n   ----------------------------- */\n.imghvr-slide-right figcaption {\n    -webkit-transform: translateX(-100%);\n            transform: translateX(-100%);\n}\n\n/* imghvr-slide-top-left\n   ----------------------------- */\n.imghvr-slide-top-left figcaption {\n    -webkit-transform: translate(-100%, -100%);\n            transform: translate(-100%, -100%);\n}\n\n/* imghvr-slide-top-right\n   ----------------------------- */\n.imghvr-slide-top-right figcaption {\n    -webkit-transform: translate(100%, -100%);\n            transform: translate(100%, -100%);\n}\n\n/* imghvr-slide-bottom-left\n   ----------------------------- */\n.imghvr-slide-bottom-left figcaption {\n    -webkit-transform: translate(-100%, 100%);\n            transform: translate(-100%, 100%);\n}\n\n/* imghvr-slide-bottom-right\n   ----------------------------- */\n.imghvr-slide-bottom-right figcaption {\n    -webkit-transform: translate(100%, 100%);\n            transform: translate(100%, 100%);\n}\n\n/* imghvr-reveal-*\n   ----------------------------- */\n[class^='imghvr-reveal-']:before, [class*=' imghvr-reveal-']:before {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    content: '';\n    background-color: #135796;\n}\n\n[class^='imghvr-reveal-'] figcaption, [class*=' imghvr-reveal-'] figcaption {\n    opacity: 0;\n}\n\n[class^='imghvr-reveal-']:hover:before, [class*=' imghvr-reveal-']:hover:before {\n    -webkit-transform: translate(0, 0);\n            transform: translate(0, 0);\n}\n\n[class^='imghvr-reveal-']:hover figcaption, [class*=' imghvr-reveal-']:hover figcaption {\n    opacity: 1;\n    transition-delay: 0.21s;\n}\n\n/* imghvr-reveal-up\n   ----------------------------- */\n.imghvr-reveal-up:before {\n    -webkit-transform: translateY(100%);\n            transform: translateY(100%);\n}\n\n/* imghvr-reveal-down\n   ----------------------------- */\n.imghvr-reveal-down:before {\n    -webkit-transform: translateY(-100%);\n            transform: translateY(-100%);\n}\n\n/* imghvr-reveal-left\n   ----------------------------- */\n.imghvr-reveal-left:before {\n    -webkit-transform: translateX(100%);\n            transform: translateX(100%);\n}\n\n/* imghvr-reveal-right\n   ----------------------------- */\n.imghvr-reveal-right:before {\n    -webkit-transform: translateX(-100%);\n            transform: translateX(-100%);\n}\n\n/* imghvr-reveal-top-left\n   ----------------------------- */\n.imghvr-reveal-top-left:before {\n    -webkit-transform: translate(-100%, -100%);\n            transform: translate(-100%, -100%);\n}\n\n/* imghvr-reveal-top-right\n   ----------------------------- */\n.imghvr-reveal-top-right:before {\n    -webkit-transform: translate(100%, -100%);\n            transform: translate(100%, -100%);\n}\n\n/* imghvr-reveal-bottom-left\n   ----------------------------- */\n.imghvr-reveal-bottom-left:before {\n    -webkit-transform: translate(-100%, 100%);\n            transform: translate(-100%, 100%);\n}\n\n/* imghvr-reveal-bottom-right\n   ----------------------------- */\n.imghvr-reveal-bottom-right:before {\n    -webkit-transform: translate(100%, 100%);\n            transform: translate(100%, 100%);\n}\n\n/* imghvr-hinge-*\n   ----------------------------- */\n[class^='imghvr-hinge-'], [class*=' imghvr-hinge-'] {\n    -webkit-perspective: 50em;\n            perspective: 50em;\n}\n\n[class^='imghvr-hinge-'] figcaption, [class*=' imghvr-hinge-'] figcaption {\n    opacity: 0;\n    z-index: 1;\n}\n\n[class^='imghvr-hinge-']:hover img, [class*=' imghvr-hinge-']:hover img {\n    opacity: 0;\n}\n\n[class^='imghvr-hinge-']:hover figcaption, [class*=' imghvr-hinge-']:hover figcaption {\n    opacity: 1;\n    transition-delay: 0.21s;\n}\n\n/* imghvr-hinge-up\n   ----------------------------- */\n.imghvr-hinge-up img {\n    -webkit-transform-origin: 50% 0%;\n            transform-origin: 50% 0%;\n}\n\n.imghvr-hinge-up figcaption {\n    -webkit-transform: rotateX(90deg);\n            transform: rotateX(90deg);\n    -webkit-transform-origin: 50% 100%;\n            transform-origin: 50% 100%;\n}\n\n.imghvr-hinge-up:hover > img {\n    -webkit-transform: rotateX(-90deg);\n            transform: rotateX(-90deg);\n}\n\n.imghvr-hinge-up:hover figcaption {\n    -webkit-transform: rotateX(0);\n            transform: rotateX(0);\n}\n\n/* imghvr-hinge-down\n   ----------------------------- */\n.imghvr-hinge-down img {\n    -webkit-transform-origin: 50% 100%;\n            transform-origin: 50% 100%;\n}\n\n.imghvr-hinge-down figcaption {\n    -webkit-transform: rotateX(-90deg);\n            transform: rotateX(-90deg);\n    -webkit-transform-origin: 50% -50%;\n            transform-origin: 50% -50%;\n}\n\n.imghvr-hinge-down:hover > img {\n    -webkit-transform: rotateX(90deg);\n            transform: rotateX(90deg);\n    opacity: 0;\n}\n\n.imghvr-hinge-down:hover figcaption {\n    -webkit-transform: rotateX(0);\n            transform: rotateX(0);\n}\n\n/* imghvr-hinge-left\n   ----------------------------- */\n.imghvr-hinge-left img {\n    -webkit-transform-origin: 0% 50%;\n            transform-origin: 0% 50%;\n}\n\n.imghvr-hinge-left figcaption {\n    -webkit-transform: rotateY(-90deg);\n            transform: rotateY(-90deg);\n    -webkit-transform-origin: 100% 50%;\n            transform-origin: 100% 50%;\n}\n\n.imghvr-hinge-left:hover > img {\n    -webkit-transform: rotateY(90deg);\n            transform: rotateY(90deg);\n}\n\n.imghvr-hinge-left:hover figcaption {\n    -webkit-transform: rotateY(0);\n            transform: rotateY(0);\n}\n\n/* imghvr-hinge-right\n   ----------------------------- */\n.imghvr-hinge-right img {\n    -webkit-transform-origin: 100% 50%;\n            transform-origin: 100% 50%;\n}\n\n.imghvr-hinge-right figcaption {\n    -webkit-transform: rotateY(90deg);\n            transform: rotateY(90deg);\n    -webkit-transform-origin: 0 50%;\n            transform-origin: 0 50%;\n}\n\n.imghvr-hinge-right:hover > img {\n    -webkit-transform: rotateY(-90deg);\n            transform: rotateY(-90deg);\n}\n\n.imghvr-hinge-right:hover figcaption {\n    -webkit-transform: rotateY(0);\n            transform: rotateY(0);\n}\n\n/* imghvr-flip-*\n   ----------------------------- */\n[class^='imghvr-flip-'], [class*=' imghvr-flip-'] {\n    -webkit-perspective: 50em;\n            perspective: 50em;\n}\n\n[class^='imghvr-flip-'] img, [class*=' imghvr-flip-'] img {\n    -webkit-backface-visibility: hidden;\n            backface-visibility: hidden;\n}\n\n[class^='imghvr-flip-'] figcaption, [class*=' imghvr-flip-'] figcaption {\n    opacity: 0;\n}\n\n[class^='imghvr-flip-']:hover > img, [class*=' imghvr-flip-']:hover > img {\n    opacity: 0;\n}\n\n[class^='imghvr-flip-']:hover figcaption, [class*=' imghvr-flip-']:hover figcaption {\n    opacity: 1;\n    transition-delay: 0.14s;\n}\n\n/* imghvr-flip-horiz\n   ----------------------------- */\n.imghvr-flip-horiz figcaption {\n    -webkit-transform: rotateX(90deg);\n            transform: rotateX(90deg);\n    -webkit-transform-origin: 0% 50%;\n            transform-origin: 0% 50%;\n}\n\n.imghvr-flip-horiz:hover img {\n    -webkit-transform: rotateX(-180deg);\n            transform: rotateX(-180deg);\n}\n\n.imghvr-flip-horiz:hover figcaption {\n    -webkit-transform: rotateX(0deg);\n            transform: rotateX(0deg);\n}\n\n/* imghvr-flip-vert\n   ----------------------------- */\n.imghvr-flip-vert figcaption {\n    -webkit-transform: rotateY(90deg);\n            transform: rotateY(90deg);\n    -webkit-transform-origin: 50% 0%;\n            transform-origin: 50% 0%;\n}\n\n.imghvr-flip-vert:hover > img {\n    -webkit-transform: rotateY(-180deg);\n            transform: rotateY(-180deg);\n}\n\n.imghvr-flip-vert:hover figcaption {\n    -webkit-transform: rotateY(0deg);\n            transform: rotateY(0deg);\n}\n\n/* imghvr-flip-diag-1\n   ----------------------------- */\n.imghvr-flip-diag-1 figcaption {\n    -webkit-transform: rotate3d(1, -1, 0, 100deg);\n            transform: rotate3d(1, -1, 0, 100deg);\n}\n\n.imghvr-flip-diag-1:hover > img {\n    -webkit-transform: rotate3d(-1, 1, 0, 100deg);\n            transform: rotate3d(-1, 1, 0, 100deg);\n}\n\n.imghvr-flip-diag-1:hover figcaption {\n    -webkit-transform: rotate3d(0, 0, 0, 0deg);\n            transform: rotate3d(0, 0, 0, 0deg);\n}\n\n/* imghvr-flip-diag-2\n   ----------------------------- */\n.imghvr-flip-diag-2 figcaption {\n    -webkit-transform: rotate3d(1, 1, 0, 100deg);\n            transform: rotate3d(1, 1, 0, 100deg);\n}\n\n.imghvr-flip-diag-2:hover > img {\n    -webkit-transform: rotate3d(-1, -1, 0, 100deg);\n            transform: rotate3d(-1, -1, 0, 100deg);\n}\n\n.imghvr-flip-diag-2:hover figcaption {\n    -webkit-transform: rotate3d(0, 0, 0, 0deg);\n            transform: rotate3d(0, 0, 0, 0deg);\n}\n\n/* imghvr-shutter-out-*\n   ----------------------------- */\n[class^='imghvr-shutter-out-']:before, [class*=' imghvr-shutter-out-']:before {\n    background: #135796;\n    position: absolute;\n    content: '';\n    transition-delay: 0.105s;\n}\n\n[class^='imghvr-shutter-out-'] figcaption, [class*=' imghvr-shutter-out-'] figcaption {\n    opacity: 0;\n    transition-delay: 0s;\n}\n\n[class^='imghvr-shutter-out-']:hover:before, [class*=' imghvr-shutter-out-']:hover:before {\n    transition-delay: 0s;\n}\n\n[class^='imghvr-shutter-out-']:hover figcaption, [class*=' imghvr-shutter-out-']:hover figcaption {\n    opacity: 1;\n    transition-delay: 0.105s;\n}\n\n/* imghvr-shutter-out-horiz\n   ----------------------------- */\n.imghvr-shutter-out-horiz:before {\n    left: 50%;\n    right: 50%;\n    top: 0;\n    bottom: 0;\n}\n\n.imghvr-shutter-out-horiz:hover:before {\n    left: 0;\n    right: 0;\n}\n\n/* imghvr-shutter-out-vert\n   ----------------------------- */\n.imghvr-shutter-out-vert:before {\n    top: 50%;\n    bottom: 50%;\n    left: 0;\n    right: 0;\n}\n\n.imghvr-shutter-out-vert:hover:before {\n    top: 0;\n    bottom: 0;\n}\n\n/* imghvr-shutter-out-diag-1\n   ----------------------------- */\n.imghvr-shutter-out-diag-1:before {\n    top: 50%;\n    bottom: 50%;\n    left: -35%;\n    right: -35%;\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg);\n}\n\n.imghvr-shutter-out-diag-1:hover:before {\n    top: -35%;\n    bottom: -35%;\n}\n\n/* imghvr-shutter-out-diag-2\n   ----------------------------- */\n.imghvr-shutter-out-diag-2:before {\n    top: 50%;\n    bottom: 50%;\n    left: -35%;\n    right: -35%;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n}\n\n.imghvr-shutter-out-diag-2:hover:before {\n    top: -35%;\n    bottom: -35%;\n}\n\n/* imghvr-shutter-in-*\n   ----------------------------- */\n[class^='imghvr-shutter-in-']:after, [class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:before {\n    background: #135796;\n    position: absolute;\n    content: '';\n}\n\n[class^='imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:after {\n    top: 0;\n    left: 0;\n}\n\n[class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:before {\n    right: 0;\n    bottom: 0;\n}\n\n[class^='imghvr-shutter-in-'] figcaption, [class*=' imghvr-shutter-in-'] figcaption {\n    opacity: 0;\n    z-index: 1;\n}\n\n[class^='imghvr-shutter-in-']:hover figcaption, [class*=' imghvr-shutter-in-']:hover figcaption {\n    opacity: 1;\n    transition-delay: 0.21s;\n}\n\n/* imghvr-shutter-in-horiz\n   ----------------------------- */\n.imghvr-shutter-in-horiz:after, .imghvr-shutter-in-horiz:before {\n    width: 0;\n    height: 100%;\n}\n\n.imghvr-shutter-in-horiz:hover:after, .imghvr-shutter-in-horiz:hover:before {\n    width: 50%;\n}\n\n/* imghvr-shutter-in-vert\n   ----------------------------- */\n.imghvr-shutter-in-vert:after, .imghvr-shutter-in-vert:before {\n    height: 0;\n    width: 100%;\n}\n\n.imghvr-shutter-in-vert:hover:after, .imghvr-shutter-in-vert:hover:before {\n    height: 50%;\n}\n\n/* imghvr-shutter-in-out-horiz\n   ----------------------------- */\n.imghvr-shutter-in-out-horiz:after, .imghvr-shutter-in-out-horiz:before {\n    width: 0;\n    height: 100%;\n    opacity: 0.75;\n}\n\n.imghvr-shutter-in-out-horiz:hover:after, .imghvr-shutter-in-out-horiz:hover:before {\n    width: 100%;\n}\n\n/* imghvr-shutter-in-out-vert\n   ----------------------------- */\n.imghvr-shutter-in-out-vert:after, .imghvr-shutter-in-out-vert:before {\n    height: 0;\n    width: 100%;\n    opacity: 0.75;\n}\n\n.imghvr-shutter-in-out-vert:hover:after, .imghvr-shutter-in-out-vert:hover:before {\n    height: 100%;\n}\n\n/* imghvr-shutter-in-out-diag-1\n   ----------------------------- */\n.imghvr-shutter-in-out-diag-1:after, .imghvr-shutter-in-out-diag-1:before {\n    width: 200%;\n    height: 200%;\n    transition: all 0.6s ease;\n    opacity: 0.75;\n}\n\n.imghvr-shutter-in-out-diag-1:after {\n    -webkit-transform: skew(-45deg) translateX(-150%);\n            transform: skew(-45deg) translateX(-150%);\n}\n\n.imghvr-shutter-in-out-diag-1:before {\n    -webkit-transform: skew(-45deg) translateX(150%);\n            transform: skew(-45deg) translateX(150%);\n}\n\n.imghvr-shutter-in-out-diag-1:hover:after {\n    -webkit-transform: skew(-45deg) translateX(-50%);\n            transform: skew(-45deg) translateX(-50%);\n}\n\n.imghvr-shutter-in-out-diag-1:hover:before {\n    -webkit-transform: skew(-45deg) translateX(50%);\n            transform: skew(-45deg) translateX(50%);\n}\n\n/* imghvr-shutter-in-out-diag-2\n   ----------------------------- */\n.imghvr-shutter-in-out-diag-2:after, .imghvr-shutter-in-out-diag-2:before {\n    width: 200%;\n    height: 200%;\n    transition: all 0.6s ease;\n    opacity: 0.75;\n}\n\n.imghvr-shutter-in-out-diag-2:after {\n    -webkit-transform: skew(45deg) translateX(-100%);\n            transform: skew(45deg) translateX(-100%);\n}\n\n.imghvr-shutter-in-out-diag-2:before {\n    -webkit-transform: skew(45deg) translateX(100%);\n            transform: skew(45deg) translateX(100%);\n}\n\n.imghvr-shutter-in-out-diag-2:hover:after {\n    -webkit-transform: skew(45deg) translateX(0%);\n            transform: skew(45deg) translateX(0%);\n}\n\n.imghvr-shutter-in-out-diag-2:hover:before {\n    -webkit-transform: skew(45deg) translateX(0%);\n            transform: skew(45deg) translateX(0%);\n}\n\n/* imghvr-fold*\n   ----------------------------- */\n[class^='imghvr-fold'], [class*=' imghvr-fold'] {\n    -webkit-perspective: 50em;\n            perspective: 50em;\n}\n\n[class^='imghvr-fold'] img, [class*=' imghvr-fold'] img {\n    -webkit-transform-origin: 50% 0%;\n            transform-origin: 50% 0%;\n}\n\n[class^='imghvr-fold'] figcaption, [class*=' imghvr-fold'] figcaption {\n    z-index: 1;\n    opacity: 0;\n}\n\n[class^='imghvr-fold']:hover > img, [class*=' imghvr-fold']:hover > img {\n    opacity: 0;\n    transition-delay: 0;\n}\n\n[class^='imghvr-fold']:hover figcaption, [class*=' imghvr-fold']:hover figcaption {\n    -webkit-transform: rotateX(0) translate3d(0, 0%, 0) scale(1);\n            transform: rotateX(0) translate3d(0, 0%, 0) scale(1);\n    opacity: 1;\n    transition-delay: 0.21s;\n}\n\n/* imghvr-fold-up\n   ----------------------------- */\n.imghvr-fold-up > img {\n    -webkit-transform-origin: 50% 0%;\n            transform-origin: 50% 0%;\n}\n\n.imghvr-fold-up figcaption {\n    -webkit-transform: rotateX(-90deg) translate3d(0%, -50%, 0) scale(0.6);\n            transform: rotateX(-90deg) translate3d(0%, -50%, 0) scale(0.6);\n    -webkit-transform-origin: 50% 100%;\n            transform-origin: 50% 100%;\n}\n\n.imghvr-fold-up:hover > img {\n    -webkit-transform: rotateX(90deg) scale(0.6) translateY(50%);\n            transform: rotateX(90deg) scale(0.6) translateY(50%);\n}\n\n/* imghvr-fold-down\n   ----------------------------- */\n.imghvr-fold-down > img {\n    -webkit-transform-origin: 50% 100%;\n            transform-origin: 50% 100%;\n}\n\n.imghvr-fold-down figcaption {\n    -webkit-transform: rotateX(90deg) translate3d(0%, 50%, 0) scale(0.6);\n            transform: rotateX(90deg) translate3d(0%, 50%, 0) scale(0.6);\n    -webkit-transform-origin: 50% 0%;\n            transform-origin: 50% 0%;\n}\n\n.imghvr-fold-down:hover > img {\n    -webkit-transform: rotateX(-90deg) scale(0.6) translateY(-50%);\n            transform: rotateX(-90deg) scale(0.6) translateY(-50%);\n}\n\n/* imghvr-fold-left\n   ----------------------------- */\n.imghvr-fold-left > img {\n    -webkit-transform-origin: 0% 50%;\n            transform-origin: 0% 50%;\n}\n\n.imghvr-fold-left figcaption {\n    -webkit-transform: rotateY(90deg) translate3d(-50%, 0%, 0) scale(0.6);\n            transform: rotateY(90deg) translate3d(-50%, 0%, 0) scale(0.6);\n    -webkit-transform-origin: 100% 50%;\n            transform-origin: 100% 50%;\n}\n\n.imghvr-fold-left:hover > img {\n    -webkit-transform: rotateY(-90deg) scale(0.6) translateX(50%);\n            transform: rotateY(-90deg) scale(0.6) translateX(50%);\n}\n\n/* imghvr-fold-right\n   ----------------------------- */\n.imghvr-fold-right > img {\n    -webkit-transform-origin: 100% 50%;\n            transform-origin: 100% 50%;\n}\n\n.imghvr-fold-right figcaption {\n    -webkit-transform: rotateY(-90deg) translate3d(50%, 0%, 0) scale(0.6);\n            transform: rotateY(-90deg) translate3d(50%, 0%, 0) scale(0.6);\n    -webkit-transform-origin: 0 50%;\n            transform-origin: 0 50%;\n}\n\n.imghvr-fold-right:hover > img {\n    -webkit-transform: rotateY(90deg) scale(0.6) translateX(-50%);\n            transform: rotateY(90deg) scale(0.6) translateX(-50%);\n}\n\n/* imghvr-zoom-in\n   ----------------------------- */\n.imghvr-zoom-in figcaption {\n    opacity: 0;\n    -webkit-transform: scale(0.5);\n            transform: scale(0.5);\n}\n\n.imghvr-zoom-in:hover figcaption {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n}\n\n/* imghvr-zoom-out*\n   ----------------------------- */\n[class^='imghvr-zoom-out'] figcaption, [class*=' imghvr-zoom-out'] figcaption {\n    -webkit-transform: scale(0.5);\n            transform: scale(0.5);\n    -webkit-transform-origin: 50% 50%;\n            transform-origin: 50% 50%;\n    opacity: 0;\n}\n\n[class^='imghvr-zoom-out']:hover figcaption, [class^='imghvr-zoom-out'].hover figcaption, [class*=' imghvr-zoom-out']:hover figcaption, [class*=' imghvr-zoom-out'].hover figcaption {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n    transition-delay: 0.35s;\n}\n\n/* imghvr-zoom-out\n   ----------------------------- */\n.imghvr-zoom-out:hover > img {\n    -webkit-transform: scale(0.5);\n            transform: scale(0.5);\n    opacity: 0;\n}\n\n/* imghvr-zoom-out-up\n   ----------------------------- */\n.imghvr-zoom-out-up:hover > img, .imghvr-zoom-out-up.hover > img {\n    -webkit-animation: imghvr-zoom-out-up 0.4025s linear;\n            animation: imghvr-zoom-out-up 0.4025s linear;\n    -webkit-animation-iteration-count: 1;\n            animation-iteration-count: 1;\n    -webkit-animation-fill-mode: forwards;\n            animation-fill-mode: forwards;\n}\n\n@-webkit-keyframes imghvr-zoom-out-up {\n    50% {\n        -webkit-transform: scale(0.8) translateY(0%);\n                transform: scale(0.8) translateY(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateY(-150%);\n                transform: scale(0.8) translateY(-150%);\n        opacity: 0.5;\n    }\n}\n\n@keyframes imghvr-zoom-out-up {\n    50% {\n        -webkit-transform: scale(0.8) translateY(0%);\n                transform: scale(0.8) translateY(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateY(-150%);\n                transform: scale(0.8) translateY(-150%);\n        opacity: 0.5;\n    }\n}\n\n/* imghvr-zoom-out-down\n   ----------------------------- */\n.imghvr-zoom-out-down:hover > img, .imghvr-zoom-out-down.hover > img {\n    -webkit-animation: imghvr-zoom-out-down 0.4025s linear;\n            animation: imghvr-zoom-out-down 0.4025s linear;\n    -webkit-animation-iteration-count: 1;\n            animation-iteration-count: 1;\n    -webkit-animation-fill-mode: forwards;\n            animation-fill-mode: forwards;\n}\n\n@-webkit-keyframes imghvr-zoom-out-down {\n    50% {\n        -webkit-transform: scale(0.8) translateY(0%);\n                transform: scale(0.8) translateY(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateY(150%);\n                transform: scale(0.8) translateY(150%);\n        opacity: 0.5;\n    }\n}\n\n@keyframes imghvr-zoom-out-down {\n    50% {\n        -webkit-transform: scale(0.8) translateY(0%);\n                transform: scale(0.8) translateY(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateY(150%);\n                transform: scale(0.8) translateY(150%);\n        opacity: 0.5;\n    }\n}\n\n/* imghvr-zoom-out-left\n   ----------------------------- */\n.imghvr-zoom-out-left:hover > img, .imghvr-zoom-out-left.hover > img {\n    -webkit-animation: imghvr-zoom-out-left 0.4025s linear;\n            animation: imghvr-zoom-out-left 0.4025s linear;\n    -webkit-animation-iteration-count: 1;\n            animation-iteration-count: 1;\n    -webkit-animation-fill-mode: forwards;\n            animation-fill-mode: forwards;\n}\n\n@-webkit-keyframes imghvr-zoom-out-left {\n    50% {\n        -webkit-transform: scale(0.8) translateX(0%);\n                transform: scale(0.8) translateX(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateX(-150%);\n                transform: scale(0.8) translateX(-150%);\n        opacity: 0.5;\n    }\n}\n\n@keyframes imghvr-zoom-out-left {\n    50% {\n        -webkit-transform: scale(0.8) translateX(0%);\n                transform: scale(0.8) translateX(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateX(-150%);\n                transform: scale(0.8) translateX(-150%);\n        opacity: 0.5;\n    }\n}\n\n/* imghvr-zoom-out-right\n   ----------------------------- */\n.imghvr-zoom-out-right:hover > img, .imghvr-zoom-out-right.hover > img {\n    -webkit-animation: imghvr-zoom-out-right 0.4025s linear;\n            animation: imghvr-zoom-out-right 0.4025s linear;\n    -webkit-animation-iteration-count: 1;\n            animation-iteration-count: 1;\n    -webkit-animation-fill-mode: forwards;\n            animation-fill-mode: forwards;\n}\n\n@-webkit-keyframes imghvr-zoom-out-right {\n    50% {\n        -webkit-transform: scale(0.8) translateX(0%);\n                transform: scale(0.8) translateX(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateX(150%);\n                transform: scale(0.8) translateX(150%);\n        opacity: 0.5;\n    }\n}\n\n@keyframes imghvr-zoom-out-right {\n    50% {\n        -webkit-transform: scale(0.8) translateX(0%);\n                transform: scale(0.8) translateX(0%);\n        opacity: 0.5;\n    }\n    100% {\n        -webkit-transform: scale(0.8) translateX(150%);\n                transform: scale(0.8) translateX(150%);\n        opacity: 0.5;\n    }\n}\n\n/* imghvr-zoom-out-flip-horiz\n   ----------------------------- */\n.imghvr-zoom-out-flip-horiz {\n    -webkit-perspective: 50em;\n            perspective: 50em;\n}\n\n.imghvr-zoom-out-flip-horiz figcaption {\n    opacity: 0;\n    -webkit-transform: rotateX(90deg) translateY(-100%) scale(0.5);\n            transform: rotateX(90deg) translateY(-100%) scale(0.5);\n}\n\n.imghvr-zoom-out-flip-horiz:hover > img, .imghvr-zoom-out-flip-horiz.hover > img {\n    -webkit-transform: rotateX(-100deg) translateY(50%) scale(0.5);\n            transform: rotateX(-100deg) translateY(50%) scale(0.5);\n    opacity: 0;\n    transition-delay: 0;\n}\n\n.imghvr-zoom-out-flip-horiz:hover figcaption, .imghvr-zoom-out-flip-horiz.hover figcaption {\n    -webkit-transform: rotateX(0) translateY(0%) scale(1);\n            transform: rotateX(0) translateY(0%) scale(1);\n    opacity: 1;\n    transition-delay: 0.35s;\n}\n\n/* imghvr-zoom-out-flip-vert\n   ----------------------------- */\n.imghvr-zoom-out-flip-vert {\n    -webkit-perspective: 50em;\n            perspective: 50em;\n}\n\n.imghvr-zoom-out-flip-vert figcaption {\n    opacity: 0;\n    -webkit-transform: rotateY(90deg) translate(50%, 0) scale(0.5);\n            transform: rotateY(90deg) translate(50%, 0) scale(0.5);\n}\n\n.imghvr-zoom-out-flip-vert:hover > img, .imghvr-zoom-out-flip-vert.hover > img {\n    -webkit-transform: rotateY(-100deg) translateX(50%) scale(0.5);\n            transform: rotateY(-100deg) translateX(50%) scale(0.5);\n    opacity: 0;\n    transition-delay: 0;\n}\n\n.imghvr-zoom-out-flip-vert:hover figcaption, .imghvr-zoom-out-flip-vert.hover figcaption {\n    -webkit-transform: rotateY(0) translate(0, 0) scale(1);\n            transform: rotateY(0) translate(0, 0) scale(1);\n    opacity: 1;\n    transition-delay: 0.35s;\n}\n\n/* imghvr-blur\n   ----------------------------- */\n.imghvr-blur figcaption {\n    opacity: 0;\n}\n\n.imghvr-blur:hover > img {\n    -webkit-filter: blur(30px);\n            filter: blur(30px);\n    -webkit-transform: scale(1.2);\n            transform: scale(1.2);\n    opacity: 0;\n}\n\n.imghvr-blur:hover figcaption {\n    opacity: 1;\n    transition-delay: 0.21s;\n}\n", ""]);
 
 // exports
 
@@ -6752,6 +6924,132 @@ module.exports = function escape(url) {
 
     return url
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/imagehover.css/css/imagehover.css":
+/*!********************************************************!*\
+  !*** ./node_modules/imagehover.css/css/imagehover.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./imagehover.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/imagehover.css/css/imagehover.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/jquery-aniview/dist/jquery.aniview.js":
+/*!************************************************************!*\
+  !*** ./node_modules/jquery-aniview/dist/jquery.aniview.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function($) {
+
+    //custom scroll replacement to allow for interval-based 'polling'
+    //rathar than checking on every pixel
+    var uniqueCntr = 0;
+    $.fn.scrolled = function(waitTime, fn) {
+        if (typeof waitTime === 'function') {
+            fn = waitTime;
+            waitTime = 200;
+        }
+        var tag = 'scrollTimer' + uniqueCntr++;
+        this.scroll(function() {
+            var self = $(this);
+            var timer = self.data(tag);
+            if (timer) {
+                clearTimeout(timer);
+            }
+            timer = setTimeout(function() {
+                self.removeData(tag);
+                fn.call(self[0]);
+            }, waitTime);
+            self.data(tag, timer);
+        });
+    };
+
+    $.fn.AniView = function(options) {
+
+        //some default settings. animateThreshold controls the trigger point
+        //for animation and is subtracted from the bottom of the viewport.
+        var settings = $.extend({
+            animateThreshold: 0,
+            scrollPollInterval: 20
+        }, options);
+
+        //keep the matched elements in a variable for easy reference
+        var collection = this;
+
+        //cycle through each matched element and wrap it in a block/div
+        //and then proceed to fade out the inner contents of each matched element
+        $(collection).each(function(index, element) {
+            $(element).wrap('<div class="av-container"></div>');
+            $(element).css('opacity', 0);
+        });
+
+        /**
+         * returns boolean representing whether element's top is coming into bottom of viewport
+         *
+         * @param HTMLDOMElement element the current element to check
+         */
+        function EnteringViewport(element) {
+            var elementOffset = $(element).offset();
+            var elementTop = elementOffset.top + $(element).scrollTop();
+            var elementBottom = elementOffset.top + $(element).scrollTop() + $(element).height();
+            var viewportBottom = $(window).scrollTop() + $(window).height();
+            return (elementTop < (viewportBottom - settings.animateThreshold)) ? true : false;
+        }
+
+        /**
+         * cycle through each element in the collection to make sure that any
+         * elements which should be animated into view, are...
+         *
+         * @param collection of elements to check
+         */
+        function RenderElementsCurrentlyInViewport(collection) {
+            $(collection).each(function(index, element) {
+                var elementParentContainer = $(element).parent('.av-container');
+                if ($(element).is('[data-av-animation]') && !$(elementParentContainer).hasClass('av-visible') && EnteringViewport(elementParentContainer)) {
+                    $(element).css('opacity', 1);
+                    $(elementParentContainer).addClass('av-visible');
+                    $(element).addClass('animated ' + $(element).attr('data-av-animation'));
+                }
+            });
+        }
+
+        //on page load, render any elements that are currently in view
+        RenderElementsCurrentlyInViewport(collection);
+
+        //enable the scrolled event timer to watch for elements coming into the viewport
+        //from the bottom. default polling time is 20 ms. This can be changed using
+        //'scrollPollInterval' from the user visible options
+        $(window).scrolled(settings.scrollPollInterval, function() {
+            RenderElementsCurrentlyInViewport(collection);
+        });
+    };
+})(jQuery);
 
 
 /***/ }),
@@ -37918,6 +38216,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true&":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true& ***!
@@ -37957,6 +38285,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Servicios.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Servicios.vue?vue&type=style&index=0&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./NavBar.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -38732,7 +39090,9 @@ var render = function() {
       _vm._v(" "),
       _c("AcercaComponent"),
       _vm._v(" "),
-      _c("ServiciosComponent")
+      _c("ServiciosComponent"),
+      _vm._v(" "),
+      _c("BlogComponent")
     ],
     1
   )
@@ -38759,95 +39119,102 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "seccion" }, [
-    _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-lg-6" }, [
-          _c("div", { staticClass: "img-historia" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "back-bg",
-                staticStyle: { position: "absolute", "z-index": "-1" },
-                attrs: { width: "100%", viewBox: "0 0 900 700" }
-              },
-              [
-                _c(
-                  "defs",
-                  [
-                    _c(
-                      "linearGradient",
-                      {
-                        attrs: {
-                          id: "PSgrad_01",
-                          x1: "64.279%",
-                          x2: "0%",
-                          y1: "76.604%",
-                          y2: "0%"
-                        }
-                      },
-                      [
-                        _c("stop", {
+  return _c(
+    "section",
+    {
+      staticClass: "seccion aniview",
+      attrs: { "data-av-animation": "fadeInUp" }
+    },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-6" }, [
+            _c("div", { staticClass: "img-historia" }, [
+              _c(
+                "svg",
+                {
+                  staticClass: "back-bg",
+                  staticStyle: { position: "absolute", "z-index": "-1" },
+                  attrs: { width: "100%", viewBox: "0 0 900 700" }
+                },
+                [
+                  _c(
+                    "defs",
+                    [
+                      _c(
+                        "linearGradient",
+                        {
                           attrs: {
-                            offset: "0%",
-                            "stop-color": "rgba(99, 184, 167)",
-                            "stop-opacity": "1"
+                            id: "PSgrad_01",
+                            x1: "64.279%",
+                            x2: "0%",
+                            y1: "76.604%",
+                            y2: "0%"
                           }
-                        }),
-                        _vm._v(" "),
-                        _c("stop", {
-                          attrs: {
-                            offset: "100%",
-                            "stop-color": "rgba(99, 184, 167)",
-                            "stop-opacity": "1"
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("path", {
-                  attrs: {
-                    "fill-rule": "evenodd",
-                    opacity: "0.5",
-                    fill: "url(#PSgrad_01)",
-                    d:
-                      "M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c("svg", { attrs: { width: "100%", viewBox: "0 0 700 500" } }, [
-              _c("clipPath", { attrs: { id: "clip-path" } }, [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M89.479,0.180 L512.635,25.932 C568.395,29.326 603.115,76.927 590.357,129.078 L528.827,380.603 C518.688,422.048 472.661,448.814 427.190,443.300 L73.350,400.391 C32.374,395.422 -0.267,360.907 -0.002,322.064 L1.609,85.154 C1.938,36.786 40.481,-2.801 89.479,0.180 Z"
-                  }
-                })
-              ]),
+                        },
+                        [
+                          _c("stop", {
+                            attrs: {
+                              offset: "0%",
+                              "stop-color": "rgba(99, 184, 167)",
+                              "stop-opacity": "1"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("stop", {
+                            attrs: {
+                              offset: "100%",
+                              "stop-color": "rgba(99, 184, 167)",
+                              "stop-opacity": "1"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("path", {
+                    attrs: {
+                      "fill-rule": "evenodd",
+                      opacity: "0.5",
+                      fill: "url(#PSgrad_01)",
+                      d:
+                        "M616.656,2.494 L89.351,98.948 C19.867,111.658 -16.508,176.639 7.408,240.130 L122.755,546.348 C141.761,596.806 203.597,623.407 259.843,609.597 L697.535,502.126 C748.221,489.680 783.967,441.432 777.751,392.742 L739.837,95.775 C732.096,35.145 677.715,-8.675 616.656,2.494 Z"
+                    }
+                  })
+                ]
+              ),
               _vm._v(" "),
-              _c("image", {
-                staticClass: "svg__image",
-                attrs: {
-                  "clip-path": "url(#clip-path)",
-                  "xlink:href": "imagenes/paola-andrea-historia.jpg",
-                  width: "100%",
-                  height: "100%"
-                }
-              })
+              _c("svg", { attrs: { width: "100%", viewBox: "0 0 700 500" } }, [
+                _c("clipPath", { attrs: { id: "clip-path" } }, [
+                  _c("path", {
+                    attrs: {
+                      d:
+                        "M89.479,0.180 L512.635,25.932 C568.395,29.326 603.115,76.927 590.357,129.078 L528.827,380.603 C518.688,422.048 472.661,448.814 427.190,443.300 L73.350,400.391 C32.374,395.422 -0.267,360.907 -0.002,322.064 L1.609,85.154 C1.938,36.786 40.481,-2.801 89.479,0.180 Z"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("image", {
+                  staticClass: "svg__image",
+                  attrs: {
+                    "clip-path": "url(#clip-path)",
+                    "xlink:href": "imagenes/paola-andrea-historia.jpg",
+                    width: "100%",
+                    height: "100%"
+                  }
+                })
+              ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _vm._m(0)
+          ]),
+          _vm._v(" "),
+          _vm._m(0)
+        ])
       ])
-    ])
-  ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
@@ -38889,9 +39256,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Hero.vue?vue&type=template&id=0b7eb426&scoped=true&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Blog.vue?vue&type=template&id=08f3ffce&scoped=true&":
 /*!************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Hero.vue?vue&type=template&id=0b7eb426&scoped=true& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Blog.vue?vue&type=template&id=08f3ffce&scoped=true& ***!
   \************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -38911,38 +39278,177 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "jumbotron jumbotron-fluid bg-hero" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row pt-5" }, [
-          _c("div", { staticClass: "col-lg-6 col-md-12" }, [
-            _c("div", { staticClass: "contenido-hero" }, [
-              _c("h1", [_vm._v("Fundación Paola Andrea Velasquez Viva")]),
-              _vm._v(" "),
-              _c("h3", [
-                _vm._v(
-                  "\n            Diagnosticar a tiempo y hacer un tratamiento integral aumenta\n            la probabilidad de cura,\n            Juntos podemos ganarle la batalla al cancer.\n          "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { staticClass: "button", attrs: { href: "#" } }, [
-                _vm._v("\n            Contactanos\n            "),
-                _c("i", {
-                  staticClass: "fa fa-angle-right",
-                  attrs: { "aria-hidden": "true" }
-                })
+    return _c(
+      "section",
+      {
+        staticClass: "seccion bg-blog aniview",
+        attrs: { "data-av-animation": "fadeInUp" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row seccion" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "text-center text-white" }, [
+                _c("h2", [_vm._v("Conoce Nuestros Eventos y Noticias")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, saepe."
+                  )
+                ])
               ])
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-lg-6 col-md-12" }, [
-            _c("img", {
-              attrs: { src: "imagenes/img-hero.svg", alt: "img-hero.svg" }
-            })
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("figure", { staticClass: "imghvr-hinge-down" }, [
+                _c("img", {
+                  attrs: { src: "imagenes/blog-1.jpg", alt: "example-image" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [
+                  _c("h3", [_vm._v("Día mundial del cáncer infantil")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Desde el año 2013 la Fundación se ha vinculado a esta conmemoración que se lleva a cabo a nivel mundial."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                    _vm._v("\n              Leer más\n              "),
+                    _c("i", {
+                      staticClass: "fa fa-angle-right",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("figure", { staticClass: "imghvr-hinge-down" }, [
+                _c("img", {
+                  attrs: { src: "imagenes/blog-2.jpg", alt: "example-image" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [
+                  _c("h3", [_vm._v("Fiesta Roja")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Septiembre es un mes lleno de Amor y Amistad, por eso en septiembre del 2013 se organizó la primera fiesta roja para recaudar fondos para la fundación."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                    _vm._v("\n              Leer más\n              "),
+                    _c("i", {
+                      staticClass: "fa fa-angle-right",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("figure", { staticClass: "imghvr-hinge-down" }, [
+                _c("img", {
+                  attrs: { src: "imagenes/blog-3.jpg", alt: "example-image" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [
+                  _c("h3", [_vm._v("El Banquete")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n              El 31 de octubre del 2005 se realizó el primer banquete NIÑOS UNIDOS POR LA VIDA; un evento en el que\n              los niños Barranquilleros fueron los protagonistas y benefactores.\n            "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                    _vm._v("\n              Leer más\n              "),
+                    _c("i", {
+                      staticClass: "fa fa-angle-right",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ])
+                ])
+              ])
+            ])
           ])
         ])
-      ]),
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Hero.vue?vue&type=template&id=0b7eb426&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/section/Hero.vue?vue&type=template&id=0b7eb426&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "jumbotron jumbotron-fluid" },
+    [
+      _c("NavBarComponent"),
+      _vm._v(" "),
+      _vm._m(0),
       _vm._v(" "),
       _c("div", { staticClass: "wave" })
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row pt-5" }, [
+        _c("div", { staticClass: "col-lg-6" }, [
+          _c("div", { staticClass: "contenido-hero" }, [
+            _c("h1", [_vm._v("Fundación Paola Andrea Velasquez Viva")]),
+            _vm._v(" "),
+            _c("h3", [
+              _vm._v(
+                "\n            Diagnosticar a tiempo y hacer un tratamiento integral aumenta\n            la probabilidad de cura,\n            Juntos podemos ganarle la batalla al cancer.\n          "
+              )
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+              _vm._v("\n            Contactanos\n            "),
+              _c("i", {
+                staticClass: "fa fa-angle-right",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-lg-6" }, [
+          _c("img", { attrs: { src: "imagenes/img-hero.svg", alt: "" } })
+        ])
+      ])
     ])
   }
 ]
@@ -38975,200 +39481,337 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("section", { staticClass: "seccion bg-servicios" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-4 como-funcionamos" }, [
-              _c("h2", { staticClass: "text-center" }, [
-                _vm._v("Como Funcionamos")
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n            La Fundación Paola Andrea Velásquez Vivas realiza su trabajo en un esfuerzo familiar de la\n            familia Velásquez Vivas acompañado por un staff de personas que en calidad de voluntarios\n            brindan todo su saber profesional en diferente áreas:\n          "
-                )
-              ]),
-              _vm._v(" "),
-              _c("ul", { staticClass: "list-unstyled" }, [
-                _c("li", { staticClass: "media my-4" }, [
-                  _c("i", {
-                    staticClass: "fa fa-medkit",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "media-body" }, [
-                    _c("h5", { staticClass: "mt-0 mb-1" }, [_vm._v("Medicina")])
-                  ])
+      _c(
+        "section",
+        {
+          staticClass: "seccion bg-servicios aniview",
+          attrs: { "data-av-animation": "fadeInUp" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-4 como-funcionamos" }, [
+                _c("h2", { staticClass: "text-center" }, [
+                  _vm._v("Como Funcionamos")
                 ]),
                 _vm._v(" "),
-                _c("li", { staticClass: "media my-4" }, [
-                  _c("i", {
-                    staticClass: "fa fa-users",
-                    attrs: { "aria-hidden": "true" }
-                  }),
+                _c("p", [
+                  _vm._v(
+                    "\n            La Fundación Paola Andrea Velásquez Vivas realiza su trabajo en un esfuerzo familiar de la\n            familia Velásquez Vivas acompañado por un staff de personas que en calidad de voluntarios\n            brindan todo su saber profesional en diferente áreas:\n          "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("ul", { staticClass: "list-unstyled" }, [
+                  _c("li", { staticClass: "media my-4" }, [
+                    _c("i", {
+                      staticClass: "fa fa-medkit",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("h5", { staticClass: "mt-0 mb-1" }, [
+                        _vm._v("Medicina")
+                      ])
+                    ])
+                  ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "media-body" }, [
-                    _c("h5", { staticClass: "mt-0 mb-1" }, [
-                      _vm._v("Psicología")
+                  _c("li", { staticClass: "media my-4" }, [
+                    _c("i", {
+                      staticClass: "fa fa-users",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("h5", { staticClass: "mt-0 mb-1" }, [
+                        _vm._v("Psicología")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "media my-4" }, [
+                    _c("i", {
+                      staticClass: "fa fa-graduation-cap",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("h5", { staticClass: "mt-0 mb-1" }, [
+                        _vm._v("Pedagogía")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "media my-4" }, [
+                    _c("i", {
+                      staticClass: "fa fa-cutlery",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("h5", { staticClass: "mt-0 mb-1" }, [
+                        _vm._v("Nutrición")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "media my-4" }, [
+                    _c("i", {
+                      staticClass: "fa fa-gavel",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("h5", { staticClass: "mt-0 mb-1" }, [
+                        _vm._v("Apoyo Jurídico")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "media my-4" }, [
+                    _c("i", {
+                      staticClass: "fa fa-futbol-o",
+                      attrs: { "aria-hidden": "true" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("h5", { staticClass: "mt-0 mb-1" }, [
+                        _vm._v("Recreación y Manualidades")
+                      ])
                     ])
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", { staticClass: "media my-4" }, [
-                  _c("i", {
-                    staticClass: "fa fa-graduation-cap",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "media-body" }, [
-                    _c("h5", { staticClass: "mt-0 mb-1" }, [
-                      _vm._v("Pedagogía")
-                    ])
-                  ])
+                _c("p", [
+                  _vm._v(
+                    "\n            logrando así que los programas ofrecidos\n            tanto a los niños como a su familia llenen las expectativas propuestas desde su creación.\n          "
+                  )
                 ]),
                 _vm._v(" "),
-                _c("li", { staticClass: "media my-4" }, [
+                _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                  _vm._v("\n            nuestros servicios\n            "),
                   _c("i", {
-                    staticClass: "fa fa-cutlery",
+                    staticClass: "fa fa-angle-right",
                     attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "media-body" }, [
-                    _c("h5", { staticClass: "mt-0 mb-1" }, [
-                      _vm._v("Nutrición")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "media my-4" }, [
-                  _c("i", {
-                    staticClass: "fa fa-gavel",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "media-body" }, [
-                    _c("h5", { staticClass: "mt-0 mb-1" }, [
-                      _vm._v("Apoyo Jurídico")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "media my-4" }, [
-                  _c("i", {
-                    staticClass: "fa fa-futbol-o",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "media-body" }, [
-                    _c("h5", { staticClass: "mt-0 mb-1" }, [
-                      _vm._v("Recreación y Manualidades")
-                    ])
-                  ])
+                  })
                 ])
               ]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n            logrando así que los programas ofrecidos\n            tanto a los niños como a su familia llenen las expectativas propuestas desde su creación.\n          "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { staticClass: "button", attrs: { href: "#" } }, [
-                _vm._v("\n            nuestros servicios\n            "),
-                _c("i", {
-                  staticClass: "fa fa-angle-right",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-8" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-lg-6" }, [
-                  _c("div", { staticClass: "servicio" }, [
-                    _c("div", { staticClass: "img-servicio" }, [
-                      _c("img", {
-                        staticClass: "imagen-responsive",
-                        attrs: {
-                          src: "imagenes/apoyo-psicologico.svg",
-                          alt: ""
-                        }
-                      })
+              _c("div", { staticClass: "col-lg-8" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-lg-6" }, [
+                    _c("div", { staticClass: "servicio" }, [
+                      _c("div", { staticClass: "img-servicio" }, [
+                        _c("img", {
+                          staticClass: "imagen-responsive",
+                          attrs: {
+                            src: "imagenes/apoyo-psicologico.svg",
+                            alt: ""
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", [_vm._v("Apoyo Psicológico")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                  El objetivo primario de este programa es conformar estructuras de apoyo, comprensión y\n                  pertenencia que faciliten el transito por la difícil etapa de la enfermedad.\n                "
+                        )
+                      ])
                     ]),
                     _vm._v(" "),
-                    _c("h3", [_vm._v("Apoyo Psicológico")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\n                  El objetivo primario de este programa es conformar estructuras de apoyo, comprensión y\n                  pertenencia que faciliten el transito por la difícil etapa de la enfermedad.\n                "
-                      )
+                    _c("div", { staticClass: "servicio" }, [
+                      _c("div", { staticClass: "img-servicio" }, [
+                        _c("img", {
+                          staticClass: "imagen-responsive",
+                          attrs: {
+                            src: "imagenes/asistencia-social.svg",
+                            alt: ""
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", [_vm._v("Programa de Asistencia Social")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                  El objetivo de este programa es cubrir las necesidades puntuales\n                  de los niños a lo largo del tratamiento, evitando demoras innecesarias y\n                  buscando que el tratamiento resulte lo más eficaz posible.\n                "
+                        )
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "servicio" }, [
-                    _c("div", { staticClass: "img-servicio" }, [
-                      _c("img", {
-                        staticClass: "imagen-responsive",
-                        attrs: {
-                          src: "imagenes/asistencia-social.svg",
-                          alt: ""
-                        }
-                      })
+                  _c("div", { staticClass: "col-lg-6 margen-arriba" }, [
+                    _c("div", { staticClass: "servicio" }, [
+                      _c("div", { staticClass: "img-servicio" }, [
+                        _c("img", {
+                          staticClass: "imagen-responsive",
+                          attrs: { src: "imagenes/recreacion.svg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", [_vm._v("Recreación Hospitalaria")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                  Actividades desarrolladas para que los niños hospitalizados puedan tener espacios para distraerse y\n                  hacer posible que se olviden por un rato de todos los procedimientos que les realizan.\n                "
+                        )
+                      ])
                     ]),
                     _vm._v(" "),
-                    _c("h3", [_vm._v("Programa de Asistencia Social")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\n                  El objetivo de este programa es cubrir las necesidades puntuales\n                  de los niños a lo largo del tratamiento, evitando demoras innecesarias y\n                  buscando que el tratamiento resulte lo más eficaz posible.\n                "
-                      )
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-lg-6 margen-arriba" }, [
-                  _c("div", { staticClass: "servicio" }, [
-                    _c("div", { staticClass: "img-servicio" }, [
-                      _c("img", {
-                        staticClass: "imagen-responsive",
-                        attrs: { src: "imagenes/recreacion.svg", alt: "" }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("h3", [_vm._v("Recreación Hospitalaria")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\n                  Actividades desarrolladas para que los niños hospitalizados puedan tener espacios para distraerse y\n                  hacer posible que se olviden por un rato de todos los procedimientos que les realizan.\n                "
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "servicio" }, [
-                    _c("div", { staticClass: "img-servicio" }, [
-                      _c("img", {
-                        staticClass: "imagen-responsive",
-                        attrs: {
-                          src: "imagenes/educacion-informativa.svg",
-                          alt: ""
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("h3", [_vm._v("Programa Informativo Educativo")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\n                  La información y educación de la familia sobre temas relativos al cáncer\n                  puede ayudar a un mejor acompañamiento y contención del niño enfermo y disminuir\n                  considerablemente los riesgos del paciente a lo largo del tratamiento.\n                "
-                      )
+                    _c("div", { staticClass: "servicio" }, [
+                      _c("div", { staticClass: "img-servicio" }, [
+                        _c("img", {
+                          staticClass: "imagen-responsive",
+                          attrs: {
+                            src: "imagenes/educacion-informativa.svg",
+                            alt: ""
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", [_vm._v("Programa Informativo Educativo")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                  La información y educación de la familia sobre temas relativos al cáncer\n                  puede ayudar a un mejor acompañamiento y contención del niño enfermo y disminuir\n                  considerablemente los riesgos del paciente a lo largo del tratamiento.\n                "
+                        )
+                      ])
                     ])
                   ])
                 ])
               ])
             ])
           ])
-        ])
-      ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=template&id=568a2d70&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/shared/NavBar.vue?vue&type=template&id=568a2d70& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("nav", { staticClass: "navbar navbar-expand-lg navbar-dark" }, [
+      _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
+        _vm._v("\n  FUND. PAOLA ANDREA\n  ")
+      ]),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "navbar-toggler",
+          attrs: {
+            type: "button",
+            "data-toggle": "collapse",
+            "data-target": "#navbarSupportedContent",
+            "aria-controls": "navbarSupportedContent",
+            "aria-expanded": "false",
+            "aria-label": "Toggle navigation"
+          }
+        },
+        [_c("span", { staticClass: "navbar-toggler-icon" })]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "collapse navbar-collapse",
+          attrs: { id: "navbarSupportedContent" }
+        },
+        [
+          _c("ul", { staticClass: "navbar-nav ml-auto" }, [
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { "data-scroll": "", href: "#inicio" }
+                },
+                [_vm._v("Inicio")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { "data-scroll": "", href: "#asesoria" }
+                },
+                [_vm._v("Asesoria")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { "data-scroll": "", href: "#acerca" }
+                },
+                [_vm._v("Acerca de")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { "data-scroll": "", href: "#equipo" }
+                },
+                [_vm._v("Equipo")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { "data-scroll": "", href: "#testimoniales" }
+                },
+                [_vm._v("Testimoniales")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: { "data-scroll": "", href: "#contacto" }
+                },
+                [_vm._v("Contactanos")]
+              )
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -54369,6 +55012,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./public/imagenes/bg-blog.svg":
+/*!*************************************!*\
+  !*** ./public/imagenes/bg-blog.svg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bg-blog.svg?ddaa4f0779e201222ee5ed9379cfbe3c";
+
+/***/ }),
+
 /***/ "./public/imagenes/bg-hero.jpg":
 /*!*************************************!*\
   !*** ./public/imagenes/bg-hero.jpg ***!
@@ -54445,6 +55099,13 @@ Vue.component('app', __webpack_require__(/*! ./components/App.vue */ "./resource
 // Localize takes the locale object as the second argument (optional) and merges it.
 //Validator.localize('es', es);
 
+$(document).ready(function () {
+  var options = {
+    animateThreshold: 100,
+    scrollPollInterval: 30
+  };
+  $('.aniview').AniView(options);
+});
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
@@ -54478,6 +55139,10 @@ try {
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
+
+  __webpack_require__(/*! jquery-aniview/dist/jquery.aniview */ "./node_modules/jquery-aniview/dist/jquery.aniview.js");
+
+  __webpack_require__(/*! imagehover.css/css/imagehover.css */ "./node_modules/imagehover.css/css/imagehover.css");
 } catch (e) {}
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -54924,17 +55589,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/frontend/section/Hero.vue":
+/***/ "./resources/js/components/frontend/section/Blog.vue":
 /*!***********************************************************!*\
-  !*** ./resources/js/components/frontend/section/Hero.vue ***!
+  !*** ./resources/js/components/frontend/section/Blog.vue ***!
   \***********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Hero_vue_vue_type_template_id_0b7eb426_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hero.vue?vue&type=template&id=0b7eb426&scoped=true& */ "./resources/js/components/frontend/section/Hero.vue?vue&type=template&id=0b7eb426&scoped=true&");
-/* harmony import */ var _Hero_vue_vue_type_style_index_0_id_0b7eb426_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true& */ "./resources/js/components/frontend/section/Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true&");
+/* harmony import */ var _Blog_vue_vue_type_template_id_08f3ffce_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Blog.vue?vue&type=template&id=08f3ffce&scoped=true& */ "./resources/js/components/frontend/section/Blog.vue?vue&type=template&id=08f3ffce&scoped=true&");
+/* harmony import */ var _Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true& */ "./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 var script = {}
@@ -54945,6 +55610,79 @@ var script = {}
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   script,
+  _Blog_vue_vue_type_template_id_08f3ffce_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Blog_vue_vue_type_template_id_08f3ffce_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "08f3ffce",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/section/Blog.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Blog.vue?vue&type=style&index=0&id=08f3ffce&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_style_index_0_id_08f3ffce_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/section/Blog.vue?vue&type=template&id=08f3ffce&scoped=true&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/section/Blog.vue?vue&type=template&id=08f3ffce&scoped=true& ***!
+  \******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_template_id_08f3ffce_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Blog.vue?vue&type=template&id=08f3ffce&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Blog.vue?vue&type=template&id=08f3ffce&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_template_id_08f3ffce_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Blog_vue_vue_type_template_id_08f3ffce_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/section/Hero.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/frontend/section/Hero.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Hero_vue_vue_type_template_id_0b7eb426_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hero.vue?vue&type=template&id=0b7eb426&scoped=true& */ "./resources/js/components/frontend/section/Hero.vue?vue&type=template&id=0b7eb426&scoped=true&");
+/* harmony import */ var _Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Hero.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/section/Hero.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Hero_vue_vue_type_style_index_0_id_0b7eb426_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true& */ "./resources/js/components/frontend/section/Hero.vue?vue&type=style&index=0&id=0b7eb426&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Hero_vue_vue_type_template_id_0b7eb426_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Hero_vue_vue_type_template_id_0b7eb426_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -54958,6 +55696,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/frontend/section/Hero.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/section/Hero.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/frontend/section/Hero.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Hero.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/section/Hero.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -55077,6 +55829,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Servicios_vue_vue_type_template_id_4664f73e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Servicios_vue_vue_type_template_id_4664f73e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/shared/NavBar.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/frontend/shared/NavBar.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NavBar_vue_vue_type_template_id_568a2d70___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NavBar.vue?vue&type=template&id=568a2d70& */ "./resources/js/components/frontend/shared/NavBar.vue?vue&type=template&id=568a2d70&");
+/* harmony import */ var _NavBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavBar.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/shared/NavBar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavBar.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _NavBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _NavBar_vue_vue_type_template_id_568a2d70___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _NavBar_vue_vue_type_template_id_568a2d70___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/shared/NavBar.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/shared/NavBar.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/frontend/shared/NavBar.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./NavBar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss& ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../node_modules/vue-loader/lib??vue-loader-options!./NavBar.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/shared/NavBar.vue?vue&type=template&id=568a2d70&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/frontend/shared/NavBar.vue?vue&type=template&id=568a2d70& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_template_id_568a2d70___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./NavBar.vue?vue&type=template&id=568a2d70& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/shared/NavBar.vue?vue&type=template&id=568a2d70&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_template_id_568a2d70___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NavBar_vue_vue_type_template_id_568a2d70___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
