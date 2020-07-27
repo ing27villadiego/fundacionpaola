@@ -4,6 +4,7 @@
     <AcercaComponent></AcercaComponent>
     <ServiciosComponent></ServiciosComponent>
     <BlogComponent></BlogComponent>
+    <FooterComponent></FooterComponent>
   </div>
 </template>
 
@@ -12,7 +13,8 @@
 import HeroComponent from './section/Hero';
 import AcercaComponent from './section/Acerca';
 import ServiciosComponent from './section/Servicios';
-import BlogComponent from './section/Blog'
+import BlogComponent from './section/Blog';
+import FooterComponent from './shared/Footer'
 
 export default {
   name: "Home",
@@ -20,7 +22,8 @@ export default {
     HeroComponent,
     AcercaComponent,
     ServiciosComponent,
-    BlogComponent
+    BlogComponent,
+    FooterComponent
   },
 };
 </script>
