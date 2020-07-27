@@ -37,6 +37,14 @@ Vue.component('app', require('./components/App.vue').default);
 // Localize takes the locale object as the second argument (optional) and merges it.
 //Validator.localize('es', es);
 
+$(document).ready(function(){
+    var options = {
+        animateThreshold: 100,
+        scrollPollInterval: 30
+    }
+    $('.aniview').AniView(options);
+});
+
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
